@@ -1,0 +1,69 @@
+
+BEGIN TURN 1 MOVEMENT PHASE
+
+	Player 1, Scout: (0, 3) -> (0, 4)
+	Player 1, Scout: (0, 3) -> (0, 4)
+	Player 1, Scout: (0, 3) -> (0, 4)
+	Player 1, Battlecruiser: (0, 3) -> (0, 4)
+	Player 1, Battlecruiser: (0, 3) -> (0, 4)
+	Player 1, Battlecruiser: (0, 3) -> (0, 4)
+	Player 2, Scout: (6, 3) -> (6, 4)
+	Player 2, Scout: (6, 3) -> (6, 4)
+	Player 2, Scout: (6, 3) -> (6, 4)
+	Player 2, Battlecruiser: (6, 3) -> (6, 4)
+	Player 2, Battlecruiser: (6, 3) -> (6, 4)
+	Player 2, Battlecruiser: (6, 3) -> (6, 4)
+
+END TURN 1 MOVEMENT PHASE
+
+BEGIN TURN 1 COMBAT PHASE
+
+
+END TURN 1 COMBAT PHASE
+
+BEGIN TURN 2 MOVEMENT PHASE
+
+	Player 1, Scout: (0, 4) -> (0, 5)
+	Player 1, Scout: (0, 4) -> (0, 5)
+	Player 1, Scout: (0, 4) -> (0, 5)
+	Player 1, Battlecruiser: (0, 4) -> (0, 5)
+	Player 1, Battlecruiser: (0, 4) -> (0, 5)
+	Player 1, Battlecruiser: (0, 4) -> (0, 5)
+	Player 2, Scout: (6, 4) -> (6, 5)
+	Player 2, Scout: (6, 4) -> (6, 5)
+	Player 2, Scout: (6, 4) -> (6, 5)
+	Player 2, Battlecruiser: (6, 4) -> (6, 5)
+	Player 2, Battlecruiser: (6, 4) -> (6, 5)
+	Player 2, Battlecruiser: (6, 4) -> (6, 5)
+
+END TURN 2 MOVEMENT PHASE
+
+BEGIN TURN 2 COMBAT PHASE
+
+
+END TURN 2 COMBAT PHASE
+
+BEGIN TURN 3 MOVEMENT PHASE
+
+	Player 1, Scout: (0, 5) -> (0, 6)
+	Player 1, Scout: (0, 5) -> (0, 6)
+	Player 1, Scout: (0, 5) -> (0, 6)
+	Player 1, Battlecruiser: (0, 5) -> (0, 6)
+	Player 1, Battlecruiser: (0, 5) -> (0, 6)
+	Player 1, Battlecruiser: (0, 5) -> (0, 6)
+	Player 2, Scout: (6, 5) -> (6, 6)
+	Player 2, Scout: (6, 5) -> (6, 6)
+	Player 2, Scout: (6, 5) -> (6, 6)
+	Player 2, Battlecruiser: (6, 5) -> (6, 6)
+	Player 2, Battlecruiser: (6, 5) -> (6, 6)
+	Player 2, Battlecruiser: (6, 5) -> (6, 6)
+
+END TURN 3 MOVEMENT PHASE
+
+BEGIN TURN 3 COMBAT PHASE
+
+
+END TURN 3 COMBAT PHASE
+
+BEGIN TURN 4 MOVEMENT PHASE
+

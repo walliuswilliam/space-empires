@@ -1,4 +1,8 @@
-class Scout:
+class Ship():
+  def func():
+    return None
+
+class Scout(Ship):
   def __init__(self, player_number, coords):
     self.name = 'Scout'
     self.cls = 'E'
@@ -8,7 +12,7 @@ class Scout:
     self.player_num = player_number
     self.coords = coords
 
-class Battlecruiser:
+class Battlecruiser(Ship):
   def __init__(self, player_number, coords):
     self.name = 'Battlecruiser'
     self.cls = 'B'
