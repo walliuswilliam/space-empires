@@ -1,8 +1,6 @@
-import sys
-import random as rand
-import math
+import sys, random as rand, math
 
-sys.path.append('ver_1/logs')
+sys.path.append('ver_2/logs')
 from ships import *
 from player import *
 from logger import *
@@ -14,9 +12,9 @@ class Game:
     self.players = players
     self.set_player_nums()
     if log_name is None:
-      self.log = Logger('ver_1/logs/log.txt')
+      self.log = Logger('ver_2/logs/log.txt')
     else:
-      self.log = Logger('ver_1/logs/{}.txt'.format(log_name))
+      self.log = Logger('ver_2/logs/{}.txt'.format(log_name))
     self.log.clear_log()
 
     rand.seed(random_seed)
@@ -42,7 +40,8 @@ class Game:
   def initialize_board(self):
     starting_locations = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
     for i, player in enumerate(self.players):
-      hc = HomeColony(player.player_num, starting_locations[i])
+      hc = Colony(player.player_num, starting_locations[i])
+      hc.is_home_colony = True
       player.home_colony = hc
       self.add_to_board(hc)
       for scout_num in range(3):
@@ -83,7 +82,7 @@ class Game:
       for ship in player.ships:
         if not self.check_for_opponent_ships(player.player_num, ship.coords):
           translations = self.get_in_bounds_translations(ship.coords)
-          chosen_move = player.choose_translation(self.board, translations, ship, self.players[self.get_opp_pn(player)-1].home_colony)
+          chosen_move = player.strategy.choose_translation(ship.__dict__, translations)
           orig = ship.coords
           self.move_ship(ship, chosen_move)
           self.log.log_move_ship(ship, orig, ship.coords)
@@ -97,13 +96,17 @@ class Game:
     used_coords = []
     for coord in self.combat_coords:
       self.log.log_combat_location(coord)
-      sort_cls = sorted(self.all_ships(coord), key=lambda x: x.cls)
+      sort_cls = sorted(self.all_ships(coord), key=lambda x: x.ship_class)
       for ship in sort_cls:
         if ship.hp == 0:
           continue
+
         player = self.players[ship.player_num - 1]
         enemies = self.get_enemies(ship, sort_cls)
-        target = player.choose_target(enemies)
+        combat_order = [obj.__dict__ for obj in sort_cls]
+        target_dict = player.strategy.choose_target(ship.__dict__, combat_order)
+        target = self.dict_to_obj(target_dict, enemies)
+
         self.log.combat_ships(ship, target)
         if self.hit(ship, target):
           self.log.write('\n\t\tHit!\n')
@@ -115,6 +118,7 @@ class Game:
             self.dead_ship(target)
         else:
           self.log.write('\n\t\tMiss\n')
+        
       for ship in sort_cls:
         if ship.hp == 0:
           sort_cls.remove(ship)
@@ -151,6 +155,7 @@ class Game:
     else:
       coord = objs.coords
       self.board[coord[0]][coord[1]].append(objs)
+    self.update_simple_board()
         
   def remove_from_board(self, objs):
     if type(objs) is list:
@@ -160,6 +165,7 @@ class Game:
     else:
       coord = objs.coords
       self.board[coord[0]][coord[1]].remove(objs)
+    self.update_simple_board()
 
   def move_ship(self, ship, translation):
     x,y = ship.coords
@@ -228,3 +234,20 @@ class Game:
           row_string += str(print_str)
       print(row_string)
     print('\n')
+
+  def dict_to_obj(self, obj_dict, obj_list): #obj list = list that the desired object is in
+    for obj in obj_list:
+      if obj.name == obj_dict['name']:
+        if obj.ship_num == obj_dict['ship_num']:
+          if obj.player_num == obj_dict['player_num']:
+            return obj
+    
+  def update_simple_board(self):
+    strat_board = {}
+    for y_idx in range(len(self.board)):
+      for x_idx in range(len(self.board[y_idx])):
+        current_loc = self.board[y_idx][x_idx] 
+        if len(current_loc) != 0:
+          strat_board[(x_idx,y_idx)] = [obj.__dict__ for obj in current_loc]
+    for player in self.players:
+      player.strategy.simple_board = strat_board

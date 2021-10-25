@@ -2,6 +2,7 @@ import sys
 from player import *
 from game import *
 from strategy import *
+from charlie import MoveToOpponent as CharlieStrat
 
 ##Normal game
 
@@ -46,3 +47,11 @@ game = Game(players, random_seed=1)
 game.run_to_completion()
 assert game.winner == 1
 print('passed\n')
+
+
+# print("checking charlie's strategy")
+# players = [Player(CharlieStrat()), Player(Custom())]
+# game = Game(players, random_seed=1)
+
+# game.run_to_completion()
+# print('passed\n')

@@ -1,8 +1,7 @@
 import math
 import random
 
-class Strategy:
-
+class Custom:
   def move(self, board, translations, ship, opponent_hc):
     my_ship_coords = ship.coords
     opp_hc_coords = opponent_hc.coords
@@ -25,12 +24,20 @@ class Strategy:
   def attack(self, targets):
     return targets[random.randint(0,len(targets)-1)]
 
-
-class Dumb:
+class MoveOffBoard:
   def move(self, board, translations, ship, opponent_hc):
     return (0,1)
 
   def attack(self, targets):
     return targets[random.randint(0,len(targets)-1)]
 
-  
+class MoveOnce:
+  def move(self, board, translations, ship, opponent_hc):
+    board_len = len(board)
+    mid_x = (board_len + 1) // 2
+    if ship.coords == (board_len-1, mid_x-1):
+      return (-1,0)
+    return (0,0)
+
+  def attack(self, targets):
+    return targets[random.randint(0,len(targets)-1)]
