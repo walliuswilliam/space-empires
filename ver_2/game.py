@@ -40,8 +40,9 @@ class Game:
   def initialize_board(self):
     starting_locations = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
     for i, player in enumerate(self.players):
-      hc = Colony(player.player_num, starting_locations[i])
-      hc.is_home_colony = True
+      # starting_coord = (mid_x, (player.player_num-1)*(board_y-1))
+
+      hc = Colony(player.player_num, starting_locations[i], is_hc=True)
       player.home_colony = hc
       self.add_to_board(hc)
       for scout_num in range(3):

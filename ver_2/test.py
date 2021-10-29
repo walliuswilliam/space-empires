@@ -2,7 +2,11 @@ import sys
 from player import *
 from game import *
 from strategy import *
+
+
+sys.path.append('ver_2/strategies')
 from charlie import MoveToOpponent as CharlieStrat
+from anton import CustomStrategy as AntonStrat
 
 ##Normal game
 
@@ -47,6 +51,15 @@ game = Game(players, random_seed=1)
 game.run_to_completion()
 assert game.winner == 1
 print('passed\n')
+
+
+
+# print("checking anton's strategy")
+# players = [Player(AntonStrat()), Player(Custom())]
+# game = Game(players, random_seed=1)
+
+# game.run_to_completion()
+# print('passed\n')
 
 
 # print("checking charlie's strategy")
