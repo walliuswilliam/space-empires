@@ -25,6 +25,7 @@ class Custom:
 
       if choice_distance < best_distance:
         best_translation = translation
+    
     return best_translation
   
   def choose_target(self, ship_info, combat_order): #ship-info = atacker

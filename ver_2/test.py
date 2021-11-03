@@ -7,6 +7,8 @@ from strategy import *
 sys.path.append('ver_2/strategies')
 from charlie import MoveToOpponent as CharlieStrat
 from anton import CustomStrategy as AntonStrat
+from justin import MoveToClosestCol as JustinStrat
+from cayden import MoveToEnemyHomeColony as CaydenStrat
 
 ##Normal game
 
@@ -54,16 +56,40 @@ print('passed\n')
 
 
 
-# print("checking anton's strategy")
-# players = [Player(AntonStrat()), Player(Custom())]
-# game = Game(players, random_seed=1)
+print("checking anton's strategy")
+players = [Player(AntonStrat()), Player(Custom())]
+game = Game(players, random_seed=1)
 
-# game.run_to_completion()
-# print('passed\n')
+game.run_to_completion()
+print('passed\n')
 
 
-# print("checking charlie's strategy")
-# players = [Player(CharlieStrat()), Player(Custom())]
+print("checking charlie's strategy")
+players = [Player(CharlieStrat()), Player(Custom())]
+game = Game(players, random_seed=1)
+
+game.run_to_completion()
+print('passed\n')
+
+
+print("checking cayden's strategy")
+players = [Player(CaydenStrat()), Player(Custom())]
+game = Game(players, random_seed=1)
+
+game.run_to_completion()
+print('passed\n')
+
+
+print("checking maia's strategy")
+players = [Player(MaiaStrat()), Player(Custom())]
+game = Game(players, random_seed=1)
+
+game.run_to_completion()
+print('passed\n')
+
+
+# print("checking justin's strategy")
+# players = [Player(JustinStrat()), Player(Custom())]
 # game = Game(players, random_seed=1)
 
 # game.run_to_completion()
