@@ -2,7 +2,7 @@ import math
 import random
 
 
-class Player():
+class Player:
   def __init__(self, strat):
     self.player_num = None
     self.ships = []

@@ -33,11 +33,6 @@ class MoveToClosestCol:
         return [x[i]+y[i] for i in range(len(x))]
 
     def choose_translation(self, ship_info, choices):
-        print(self.simple_board)
-        print()
-        
-        # print(choices)
-        # print(ship_info['coords'])
         ship_coords = ship_info['coords']
         p_num = ship_info['player_num']
         opp_home_cols = []

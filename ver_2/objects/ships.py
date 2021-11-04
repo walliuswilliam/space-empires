@@ -1,4 +1,4 @@
-class Ship():
+class Ship:
   def func():
     return None
 

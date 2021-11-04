@@ -78,23 +78,16 @@ class Game:
     for player in self.players:
       for ship in player.ships:
         self.update_combat_coords()
-        if ship.coords not in self.combat_coords:# not self.check_for_opponent_ships(player.player_num, ship.coords):
+        if ship.coords not in self.combat_coords:
           translations = self.get_in_bounds_translations(ship.coords)
           chosen_move = player.strategy.choose_translation(ship.__dict__, translations)
           orig = ship.coords
           self.move_ship(ship, chosen_move)
           self.log.log_move_ship(ship, orig, ship.coords)
-          # if self.check_for_opponent_ships(player.player_num, ship.coords):
-          #   if ship.coords not in self.combat_coords:
-          #     self.combat_coords.append(ship.coords)
-          self.update_combat_coords()
-        # else:
-        #   if ship.coords not in self.combat_coords:
-        #     self.combat_coords.append(ship.coords)
-        
+          self.update_combat_coords()      
     
     self.log.end_phase(self.turn, 'MOVEMENT')
-    self.log.write('\n{}\n'.format(self.combat_coords))
+    self.log.write('\nCombat Coords: {}\n'.format(self.combat_coords))
   
   def combat_phase(self):
     self.log.begin_phase(self.turn, 'COMBAT')
