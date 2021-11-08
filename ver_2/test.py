@@ -8,6 +8,7 @@ sys.path.append('ver_2/strategies/my_strategies')
 from move_off_board import *
 from move_once import *
 from move_to_colony import *
+from custom import *
 
 sys.path.append('ver_2/strategies/class_strategies')
 from anton import CustomStrategy as AntonStrat
@@ -62,28 +63,28 @@ print('passed\n')
 
 
 
-print("checking anton's strategy")
-players = [Player(AntonStrat()), Player(MoveToColony())]
-game = Game(players, random_seed=1)
+# print("checking anton's strategy")
+# players = [Player(AntonStrat()), Player(MoveToColony())]
+# game = Game(players, random_seed=3)
 
-game.run_to_completion()
-print('passed\n')
-
-
-print("checking charlie's strategy")
-players = [Player(CharlieStrat()), Player(MoveToColony())]
-game = Game(players, random_seed=1)
-
-game.run_to_completion()
-print('passed\n')
+# game.run_to_completion()
+# print('passed\n')
 
 
-print("checking maia's strategy")
-players = [Player(MaiaStrat()), Player(MoveToColony())]
-game = Game(players, random_seed=1)
+# print("checking charlie's strategy")
+# players = [Player(CharlieStrat()), Player(MoveToColony())]
+# game = Game(players, random_seed=1)
 
-game.run_to_completion()
-print('passed\n')
+# game.run_to_completion()
+# print('passed\n')
+
+
+# print("checking maia's strategy")
+# players = [Player(MoveToColony()), Player(MaiaStrat())]
+# game = Game(players, random_seed=3)
+
+# game.run_to_completion()
+# print('passed\n')
 
 
 # print("checking cayden's strategy")
@@ -96,7 +97,21 @@ print('passed\n')
 
 # print("checking justin's strategy")
 # players = [Player(JustinStrat()), Player(MoveToColony())]
-# game = Game(players, random_seed=1)
+# game = Game(players, random_seed=3)
 
 # game.run_to_completion()
 # print('passed\n')
+
+
+
+winners = {1:0, 2:0}
+print("testing custom strategy")
+for i in range(100):
+    players = [Player(MoveToColony()), Player(Custom())]
+    game = Game(players)
+
+    game.run_to_completion()
+    winners[game.winner] += 1
+print('passed\n')
+
+print(winners)

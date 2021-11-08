@@ -1,5 +1,6 @@
 import sys, random as rand, math
 
+sys.path.append('ver_2/objects')
 sys.path.append('ver_2/logs')
 from ships import *
 from player import *
@@ -39,9 +40,8 @@ class Game:
       player.set_player_num(i+1)
 
   def initialize_board(self):
-    starting_locations = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
     for i, player in enumerate(self.players):
-      starting_coord = ((player.player_num-1)*(board_x-1), mid_y)
+      starting_coord = (mid_x, (player.player_num-1)*(board_y-1))
 
       hc = Colony(player.player_num, starting_coord, is_hc=True)
       player.home_colony = hc
@@ -98,6 +98,8 @@ class Game:
       for ship in sort_cls:
         if ship.hp == 0:
           continue
+        if not self.check_for_opponent_ships(ship.player_num, ship.coords):
+          continue
 
         player = self.players[ship.player_num - 1]
         enemies = self.get_enemies(ship, sort_cls)
@@ -133,7 +135,7 @@ class Game:
           self.winner = player.player_num
   
   def run_to_completion(self, max_turns = 999999999, debug=False):
-    self.check_winner
+    self.check_winner()
     while self.winner is None and self.turn <= max_turns:
       if debug:
         self.print_board()

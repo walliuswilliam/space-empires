@@ -11,7 +11,7 @@ class MoveOnce:
             hc_coords = obj['coords']
     
     if ship_coords == hc_coords:
-      return (-1,0)
+      return (0,-1)
     return (0,0)
 
   def choose_target(self, targets):
