@@ -1,16 +1,16 @@
 import sys
-sys.path.append('ver_2/objects')
+sys.path.append('ver_3/objects')
 from player import *
 from game import *
 
 
-sys.path.append('ver_2/strategies/my_strategies')
+sys.path.append('ver_3/strategies/my_strategies')
 from move_off_board import *
 from move_once import *
 from move_to_colony import *
 from custom import Custom as WilliamStrat
 
-sys.path.append('ver_2/strategies/class_strategies')
+sys.path.append('ver_3/strategies/class_strategies')
 from anton import PriorityAttacker as AntonStrat
 from cayden import CaydenStrat
 from charlie import MoveToOpponent as CharlieStrat
@@ -23,7 +23,7 @@ from maia import StraightToEnemyColony as MaiaStrat
 # players = [Player(MoveToColony()), Player(MoveToColony())]
 # game = Game(players, random_seed=1)
 # game.run_to_completion()
-# assert game.winner == 1
+# print(game.winner)
 # print('passed\n')
 
 
@@ -61,6 +61,13 @@ from maia import StraightToEnemyColony as MaiaStrat
 # assert game.winner == 1
 # print('passed\n')
 
+
+print("custom strategy")
+players = [Player(WilliamStrat()), Player(WilliamStrat())]
+game = Game(players, random_seed=3)
+
+game.run_to_completion()
+print('passed\n')
 
 
 # print("checking anton's strategy")
@@ -104,24 +111,24 @@ from maia import StraightToEnemyColony as MaiaStrat
 
 
 
-winners = {1:0, 2:0}
-for i in range(50):
-    players = [Player(JustinStrat()), Player(AntonStrat())]
-    game = Game(players)
+# winners = {1:0, 2:0}
+# for i in range(50):
+#     players = [Player(JustinStrat()), Player(AntonStrat())]
+#     game = Game(players)
 
-    game.run_to_completion(max_turns=100)
-    try:
-        winners[game.winner] += 1
-    except:
-        None
+#     game.run_to_completion(max_turns=100)
+#     try:
+#         winners[game.winner] += 1
+#     except:
+#         None
 
-for i in range(50):
-    players = [Player(AntonStrat()), Player(JustinStrat())]
-    game = Game(players)
+# for i in range(50):
+#     players = [Player(AntonStrat()), Player(JustinStrat())]
+#     game = Game(players)
 
-    game.run_to_completion(max_turns=100)
-    try:
-        winners[3-game.winner] += 1
-    except:
-        None
-print(winners)
+#     game.run_to_completion(max_turns=100)
+#     try:
+#         winners[3-game.winner] += 1
+#     except:
+#         None
+# print(winners)
