@@ -8,7 +8,8 @@ sys.path.append('ver_3/strategies/my_strategies')
 from move_off_board import *
 from move_once import *
 from move_to_colony import *
-from custom import Custom as WilliamStrat
+from custom import *
+from wall_strat import WallStrat as WilliamStrat
 
 sys.path.append('ver_3/strategies/class_strategies')
 from anton import PriorityAttacker as AntonStrat
