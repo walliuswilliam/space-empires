@@ -1,4 +1,7 @@
+import sys
+sys.path.append('ver_3')
 import math,random
+from ship_data import *
 
 class MoveToColony:
   def __init__(self):
@@ -32,5 +35,19 @@ class MoveToColony:
     return possible_targets[random.randint(0,len(possible_targets)-1)]    
   
   def filter_own_ships(self, own_player_num, combat_order):
-    return [ship_dict for ship_dict in combat_order if ship_dict['player_num'] != own_player_num] 
+    return [ship_dict for ship_dict in combat_order if ship_dict['player_num'] != own_player_num]
+
+  def buy_ships(self, cp_budget):
+    bought_ships = {'Scout': 0, 'Battlecruiser': 0, 'Battleship': 0, 'Cruiser': 0, 
+      'Destroyer': 0, 'Dreadnaught': 8}
+    print('used_cp', self.get_cp_of_dict(bought_ships))
+    return bought_ships
+
+  def get_cp_of_dict(self, ships_dict):
+    total_cp = 0
+    for key in ships_dict:
+      for ship in all_ships:
+        if ship['name'] == key:
+          total_cp += ships_dict[key]*ship['cp_cost']
+    return total_cp
 

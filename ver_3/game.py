@@ -29,7 +29,6 @@ class Game:
 
     self.board = {}
     self.initialize_board()
-    self.log.initialize(self.players)
     
     self.board_size = board_size
     self.turn = 1
@@ -42,6 +41,7 @@ class Game:
       player.player_num = i+1
 
   def initialize_board(self):
+    self.log.initialize(self.players)
     for i, player in enumerate(self.players):
       starting_coord = (mid_x, (player.player_num-1)*(board_y-1))
 
@@ -50,40 +50,15 @@ class Game:
       self.add_to_board(hc)
 
       bought_ships = player.strategy.buy_ships(player.cp)
-      ship_objects = {'Scout': Scout, 'Battlecruiser': Battlecruiser, 'Battleship': Battleship, 'Cruiser': Cruiser, 'Destroyer': Destroyer, 'Dreadnaught':Dreadnaught}
+      if self.get_cp_of_dict(bought_ships) > player.cp:
+        self.log.write('Player {} used too much CP, no ships bought!\n'.format(player.player_num))
+        continue
 
       for key in bought_ships:
         for num_ships in range(bought_ships[key]):
           ship = ship_objects[key](i+1, hc.coords, num_ships+1)
           self.add_to_board(ship)
           player.ships.append(ship)
-          
-
-
-      # for ship_num in range(1,4):
-      #   sc = Scout(i+1, hc.coords, ship_num)
-      #   self.add_to_board(sc)
-      #   player.ships.append(sc)
-
-      #   bc = Battlecruiser(i+1, hc.coords, ship_num)
-      #   self.add_to_board(bc)
-      #   player.ships.append(bc)
-
-      #   bb = Battleship(i+1, hc.coords, ship_num)
-      #   self.add_to_board(bb)
-      #   player.ships.append(bb)
-
-      #   ca = Cruiser(i+1, hc.coords, ship_num)
-      #   self.add_to_board(ca)
-      #   player.ships.append(ca)
-        
-      #   dd = Destroyer(i+1, hc.coords, ship_num)
-      #   self.add_to_board(dd)
-      #   player.ships.append(dd)
-        
-      #   dn = Dreadnaught(i+1, hc.coords, ship_num)
-      #   self.add_to_board(dn)
-      #   player.ships.append(dn)
 
   def check_if_coords_are_in_bounds(self, coords):
     x, y = coords
@@ -229,7 +204,7 @@ class Game:
   def hit(self, attacker, defender):
     roll = self.roll()
     atk_value = attacker.atk - defender.df
-    if roll <= atk_value:
+    if roll <= atk_value or roll == 1:
       return True
     return False
   
@@ -243,14 +218,15 @@ class Game:
 
   def print_board(self):
     print('\n')
-    for y in range(board_y):
+    for x in range(board_x):
       row_string = ''
-      for x in range(board_x):
-        if self.board[y][x] == []:
-          row_string += '[ ]'
-        else:
-          print_str = ['{}{}'.format(ship.name[0],ship.player_num) for ship in self.board[y][x] if obj.obj_type == 'Ship']
+      for y in range(board_y):
+        try:
+          print_str = ['{}{}'.format(ship.name,ship.player_num) for ship in self.board[(x,y)] if ship.obj_type == 'Ship']
           row_string += str(print_str)
+        except:
+          row_string += '[ ]'
+
       print(row_string)
     print('\n')
 
@@ -261,8 +237,14 @@ class Game:
           if obj.player_num == obj_dict['player_num']:
             return obj
 
-  # def check_cp_of_dict(self, ships_dict):
-  #   for key in ships_dict
+  def get_cp_of_dict(self, ships_dict):
+    total_cp = 0
+    for key in ships_dict:
+      for ship in all_ships:
+        if ship['name'] == key:
+          total_cp += ships_dict[key]*ship['cp_cost']
+    return total_cp
+
   
   def update_combat_coords(self):
     for player in self.players:

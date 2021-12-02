@@ -67,6 +67,7 @@ players = [Player(WilliamStrat()), Player(WilliamStrat())]
 game = Game(players, random_seed=3)
 
 game.run_to_completion()
+print(game.winner)
 print('passed\n')
 
 
@@ -122,13 +123,13 @@ print('passed\n')
 #     except:
 #         None
 
-# for i in range(50):
-#     players = [Player(AntonStrat()), Player(JustinStrat())]
-#     game = Game(players)
+for i in range(50):
+    players = [Player(AntonStrat()), Player(JustinStrat())]
+    game = Game(players)
 
-#     game.run_to_completion(max_turns=100)
-#     try:
-#         winners[3-game.winner] += 1
-#     except:
-#         None
-# print(winners)
+    game.run_to_completion(max_turns=100)
+    try:
+        winners[3-game.winner] += 1
+    except:
+        None
+print(winners)

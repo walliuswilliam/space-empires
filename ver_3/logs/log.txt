@@ -5,74 +5,34 @@ Player 2 Strategy: Custom
 BEGIN TURN 1 MOVEMENT PHASE
 
 	Player 1, Scout 1: (3, 0) -> (3, 1)
-	Player 1, Scout 2: (3, 0) -> (3, 1)
-	Player 1, Scout 3: (3, 0) -> (3, 1)
-	Player 1, Scout 4: (3, 0) -> (3, 1)
-	Player 1, Scout 5: (3, 0) -> (3, 1)
-	Player 1, Scout 6: (3, 0) -> (3, 1)
-	Player 1, Scout 7: (3, 0) -> (3, 1)
-	Player 1, Scout 8: (3, 0) -> (3, 1)
-	Player 1, Scout 9: (3, 0) -> (3, 1)
-	Player 1, Scout 10: (3, 0) -> (3, 1)
-	Player 1, Scout 11: (3, 0) -> (3, 1)
-	Player 1, Scout 12: (3, 0) -> (3, 1)
-	Player 1, Scout 13: (3, 0) -> (3, 1)
-	Player 1, Scout 14: (3, 0) -> (3, 1)
-	Player 1, Scout 15: (3, 0) -> (3, 1)
-	Player 1, Scout 16: (3, 0) -> (3, 1)
-	Player 1, Scout 17: (3, 0) -> (3, 1)
-	Player 1, Scout 18: (3, 0) -> (3, 1)
-	Player 1, Scout 19: (3, 0) -> (3, 1)
-	Player 1, Scout 20: (3, 0) -> (3, 1)
-	Player 1, Scout 21: (3, 0) -> (3, 1)
-	Player 1, Scout 22: (3, 0) -> (3, 1)
-	Player 1, Scout 23: (3, 0) -> (3, 1)
-	Player 1, Scout 24: (3, 0) -> (3, 1)
-	Player 1, Scout 25: (3, 0) -> (3, 1)
-	Player 1, Scout 26: (3, 0) -> (3, 1)
-	Player 1, Scout 27: (3, 0) -> (3, 1)
-	Player 1, Scout 28: (3, 0) -> (3, 1)
-	Player 1, Scout 29: (3, 0) -> (3, 1)
-	Player 1, Scout 30: (3, 0) -> (3, 1)
-	Player 1, Scout 31: (3, 0) -> (3, 1)
-	Player 1, Scout 32: (3, 0) -> (3, 1)
-	Player 1, Scout 33: (3, 0) -> (3, 1)
-	Player 1, Scout 34: (3, 0) -> (3, 1)
+	Player 1, Cruiser 1: (3, 0) -> (2, 0)
+	Player 1, Cruiser 2: (3, 0) -> (2, 0)
+	Player 1, Cruiser 3: (3, 0) -> (2, 0)
+	Player 1, Cruiser 4: (3, 0) -> (3, 1)
+	Player 1, Cruiser 5: (3, 0) -> (4, 0)
+	Player 1, Cruiser 6: (3, 0) -> (4, 0)
+	Player 1, Cruiser 7: (3, 0) -> (4, 0)
+	Player 1, Cruiser 8: (3, 0) -> (3, 1)
+	Player 1, Cruiser 9: (3, 0) -> (3, 1)
+	Player 1, Cruiser 10: (3, 0) -> (3, 1)
+	Player 1, Dreadnaught 1: (3, 0) -> (3, 1)
+	Player 1, Dreadnaught 2: (3, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (2, 0)
 
-	Player 2, Scout 1: (3, 6) -> (3, 6)
-	Player 2, Scout 2: (3, 6) -> (3, 6)
-	Player 2, Scout 3: (3, 6) -> (3, 6)
-	Player 2, Scout 4: (3, 6) -> (3, 6)
-	Player 2, Scout 5: (3, 6) -> (3, 6)
-	Player 2, Scout 6: (3, 6) -> (3, 6)
-	Player 2, Scout 7: (3, 6) -> (3, 5)
-	Player 2, Scout 8: (3, 6) -> (3, 5)
-	Player 2, Scout 9: (3, 6) -> (3, 5)
-	Player 2, Scout 10: (3, 6) -> (3, 5)
-	Player 2, Scout 11: (3, 6) -> (3, 5)
-	Player 2, Scout 12: (3, 6) -> (3, 5)
-	Player 2, Scout 13: (3, 6) -> (3, 5)
-	Player 2, Scout 14: (3, 6) -> (3, 5)
-	Player 2, Scout 15: (3, 6) -> (3, 5)
-	Player 2, Scout 16: (3, 6) -> (3, 5)
-	Player 2, Scout 17: (3, 6) -> (3, 5)
-	Player 2, Scout 18: (3, 6) -> (3, 5)
-	Player 2, Scout 19: (3, 6) -> (3, 5)
-	Player 2, Scout 20: (3, 6) -> (3, 5)
-	Player 2, Scout 21: (3, 6) -> (3, 5)
-	Player 2, Scout 22: (3, 6) -> (3, 5)
-	Player 2, Scout 23: (3, 6) -> (3, 5)
-	Player 2, Scout 24: (3, 6) -> (3, 5)
-	Player 2, Scout 25: (3, 6) -> (3, 5)
-	Player 2, Scout 26: (3, 6) -> (3, 5)
-	Player 2, Scout 27: (3, 6) -> (3, 5)
-	Player 2, Scout 28: (3, 6) -> (3, 5)
-	Player 2, Scout 29: (3, 6) -> (3, 5)
-	Player 2, Scout 30: (3, 6) -> (3, 5)
-	Player 2, Scout 31: (3, 6) -> (3, 5)
-	Player 2, Scout 32: (3, 6) -> (3, 5)
-	Player 2, Scout 33: (3, 6) -> (3, 5)
-	Player 2, Scout 34: (3, 6) -> (3, 5)
+	Player 2, Scout 1: (3, 6) -> (3, 5)
+	Player 2, Cruiser 1: (3, 6) -> (2, 6)
+	Player 2, Cruiser 2: (3, 6) -> (2, 6)
+	Player 2, Cruiser 3: (3, 6) -> (2, 6)
+	Player 2, Cruiser 4: (3, 6) -> (3, 5)
+	Player 2, Cruiser 5: (3, 6) -> (4, 6)
+	Player 2, Cruiser 6: (3, 6) -> (4, 6)
+	Player 2, Cruiser 7: (3, 6) -> (4, 6)
+	Player 2, Cruiser 8: (3, 6) -> (3, 5)
+	Player 2, Cruiser 9: (3, 6) -> (3, 5)
+	Player 2, Cruiser 10: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 1: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 2: (3, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (3, 6) -> (2, 6)
 
 
 END TURN 1 MOVEMENT PHASE
@@ -87,74 +47,34 @@ END TURN 1 COMBAT PHASE
 BEGIN TURN 2 MOVEMENT PHASE
 
 	Player 1, Scout 1: (3, 1) -> (3, 2)
-	Player 1, Scout 2: (3, 1) -> (3, 2)
-	Player 1, Scout 3: (3, 1) -> (3, 2)
-	Player 1, Scout 4: (3, 1) -> (3, 2)
-	Player 1, Scout 5: (3, 1) -> (3, 2)
-	Player 1, Scout 6: (3, 1) -> (3, 2)
-	Player 1, Scout 7: (3, 1) -> (3, 2)
-	Player 1, Scout 8: (3, 1) -> (3, 2)
-	Player 1, Scout 9: (3, 1) -> (3, 2)
-	Player 1, Scout 10: (3, 1) -> (3, 2)
-	Player 1, Scout 11: (3, 1) -> (3, 2)
-	Player 1, Scout 12: (3, 1) -> (3, 2)
-	Player 1, Scout 13: (3, 1) -> (3, 2)
-	Player 1, Scout 14: (3, 1) -> (3, 2)
-	Player 1, Scout 15: (3, 1) -> (3, 2)
-	Player 1, Scout 16: (3, 1) -> (3, 2)
-	Player 1, Scout 17: (3, 1) -> (3, 2)
-	Player 1, Scout 18: (3, 1) -> (3, 2)
-	Player 1, Scout 19: (3, 1) -> (3, 2)
-	Player 1, Scout 20: (3, 1) -> (3, 2)
-	Player 1, Scout 21: (3, 1) -> (3, 2)
-	Player 1, Scout 22: (3, 1) -> (3, 2)
-	Player 1, Scout 23: (3, 1) -> (3, 2)
-	Player 1, Scout 24: (3, 1) -> (3, 2)
-	Player 1, Scout 25: (3, 1) -> (3, 2)
-	Player 1, Scout 26: (3, 1) -> (3, 2)
-	Player 1, Scout 27: (3, 1) -> (3, 2)
-	Player 1, Scout 28: (3, 1) -> (3, 2)
-	Player 1, Scout 29: (3, 1) -> (3, 2)
-	Player 1, Scout 30: (3, 1) -> (3, 2)
-	Player 1, Scout 31: (3, 1) -> (3, 2)
-	Player 1, Scout 32: (3, 1) -> (3, 2)
-	Player 1, Scout 33: (3, 1) -> (3, 2)
-	Player 1, Scout 34: (3, 1) -> (3, 2)
+	Player 1, Cruiser 1: (2, 0) -> (1, 0)
+	Player 1, Cruiser 2: (2, 0) -> (1, 0)
+	Player 1, Cruiser 3: (2, 0) -> (2, 1)
+	Player 1, Cruiser 4: (3, 1) -> (3, 2)
+	Player 1, Cruiser 5: (4, 0) -> (4, 1)
+	Player 1, Cruiser 6: (4, 0) -> (5, 0)
+	Player 1, Cruiser 7: (4, 0) -> (5, 0)
+	Player 1, Cruiser 8: (3, 1) -> (3, 2)
+	Player 1, Cruiser 9: (3, 1) -> (3, 2)
+	Player 1, Cruiser 10: (3, 1) -> (3, 2)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
-	Player 2, Scout 1: (3, 6) -> (3, 5)
-	Player 2, Scout 2: (3, 6) -> (3, 5)
-	Player 2, Scout 3: (3, 6) -> (3, 5)
-	Player 2, Scout 4: (3, 6) -> (3, 5)
-	Player 2, Scout 5: (3, 6) -> (3, 5)
-	Player 2, Scout 6: (3, 6) -> (3, 5)
-	Player 2, Scout 7: (3, 5) -> (3, 4)
-	Player 2, Scout 8: (3, 5) -> (3, 4)
-	Player 2, Scout 9: (3, 5) -> (3, 4)
-	Player 2, Scout 10: (3, 5) -> (3, 4)
-	Player 2, Scout 11: (3, 5) -> (3, 4)
-	Player 2, Scout 12: (3, 5) -> (3, 4)
-	Player 2, Scout 13: (3, 5) -> (3, 4)
-	Player 2, Scout 14: (3, 5) -> (3, 4)
-	Player 2, Scout 15: (3, 5) -> (3, 4)
-	Player 2, Scout 16: (3, 5) -> (3, 4)
-	Player 2, Scout 17: (3, 5) -> (3, 4)
-	Player 2, Scout 18: (3, 5) -> (3, 4)
-	Player 2, Scout 19: (3, 5) -> (3, 4)
-	Player 2, Scout 20: (3, 5) -> (3, 4)
-	Player 2, Scout 21: (3, 5) -> (3, 4)
-	Player 2, Scout 22: (3, 5) -> (3, 4)
-	Player 2, Scout 23: (3, 5) -> (3, 4)
-	Player 2, Scout 24: (3, 5) -> (3, 4)
-	Player 2, Scout 25: (3, 5) -> (3, 4)
-	Player 2, Scout 26: (3, 5) -> (3, 4)
-	Player 2, Scout 27: (3, 5) -> (3, 4)
-	Player 2, Scout 28: (3, 5) -> (3, 4)
-	Player 2, Scout 29: (3, 5) -> (3, 4)
-	Player 2, Scout 30: (3, 5) -> (3, 4)
-	Player 2, Scout 31: (3, 5) -> (3, 4)
-	Player 2, Scout 32: (3, 5) -> (3, 4)
-	Player 2, Scout 33: (3, 5) -> (3, 4)
-	Player 2, Scout 34: (3, 5) -> (3, 4)
+	Player 2, Scout 1: (3, 5) -> (3, 4)
+	Player 2, Cruiser 1: (2, 6) -> (1, 6)
+	Player 2, Cruiser 2: (2, 6) -> (1, 6)
+	Player 2, Cruiser 3: (2, 6) -> (2, 5)
+	Player 2, Cruiser 4: (3, 5) -> (3, 4)
+	Player 2, Cruiser 5: (4, 6) -> (4, 5)
+	Player 2, Cruiser 6: (4, 6) -> (5, 6)
+	Player 2, Cruiser 7: (4, 6) -> (5, 6)
+	Player 2, Cruiser 8: (3, 5) -> (3, 4)
+	Player 2, Cruiser 9: (3, 5) -> (3, 4)
+	Player 2, Cruiser 10: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 2 MOVEMENT PHASE
@@ -169,74 +89,34 @@ END TURN 2 COMBAT PHASE
 BEGIN TURN 3 MOVEMENT PHASE
 
 	Player 1, Scout 1: (3, 2) -> (3, 3)
-	Player 1, Scout 2: (3, 2) -> (3, 3)
-	Player 1, Scout 3: (3, 2) -> (3, 3)
-	Player 1, Scout 4: (3, 2) -> (3, 3)
-	Player 1, Scout 5: (3, 2) -> (3, 3)
-	Player 1, Scout 6: (3, 2) -> (3, 3)
-	Player 1, Scout 7: (3, 2) -> (3, 3)
-	Player 1, Scout 8: (3, 2) -> (3, 3)
-	Player 1, Scout 9: (3, 2) -> (3, 3)
-	Player 1, Scout 10: (3, 2) -> (3, 3)
-	Player 1, Scout 11: (3, 2) -> (3, 3)
-	Player 1, Scout 12: (3, 2) -> (3, 3)
-	Player 1, Scout 13: (3, 2) -> (3, 3)
-	Player 1, Scout 14: (3, 2) -> (3, 3)
-	Player 1, Scout 15: (3, 2) -> (3, 3)
-	Player 1, Scout 16: (3, 2) -> (3, 3)
-	Player 1, Scout 17: (3, 2) -> (3, 3)
-	Player 1, Scout 18: (3, 2) -> (3, 3)
-	Player 1, Scout 19: (3, 2) -> (3, 3)
-	Player 1, Scout 20: (3, 2) -> (3, 3)
-	Player 1, Scout 21: (3, 2) -> (3, 3)
-	Player 1, Scout 22: (3, 2) -> (3, 3)
-	Player 1, Scout 23: (3, 2) -> (3, 3)
-	Player 1, Scout 24: (3, 2) -> (3, 3)
-	Player 1, Scout 25: (3, 2) -> (3, 3)
-	Player 1, Scout 26: (3, 2) -> (3, 3)
-	Player 1, Scout 27: (3, 2) -> (3, 3)
-	Player 1, Scout 28: (3, 2) -> (3, 3)
-	Player 1, Scout 29: (3, 2) -> (3, 3)
-	Player 1, Scout 30: (3, 2) -> (3, 3)
-	Player 1, Scout 31: (3, 2) -> (3, 3)
-	Player 1, Scout 32: (3, 2) -> (3, 3)
-	Player 1, Scout 33: (3, 2) -> (3, 3)
-	Player 1, Scout 34: (3, 2) -> (3, 3)
+	Player 1, Cruiser 1: (1, 0) -> (0, 0)
+	Player 1, Cruiser 2: (1, 0) -> (1, 1)
+	Player 1, Cruiser 3: (2, 1) -> (2, 2)
+	Player 1, Cruiser 4: (3, 2) -> (3, 3)
+	Player 1, Cruiser 5: (4, 1) -> (4, 2)
+	Player 1, Cruiser 6: (5, 0) -> (5, 1)
+	Player 1, Cruiser 7: (5, 0) -> (6, 0)
+	Player 1, Cruiser 8: (3, 2) -> (3, 3)
+	Player 1, Cruiser 9: (3, 2) -> (3, 3)
+	Player 1, Cruiser 10: (3, 2) -> (3, 3)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
-	Player 2, Scout 1: (3, 5) -> (3, 4)
-	Player 2, Scout 2: (3, 5) -> (3, 4)
-	Player 2, Scout 3: (3, 5) -> (3, 4)
-	Player 2, Scout 4: (3, 5) -> (3, 4)
-	Player 2, Scout 5: (3, 5) -> (3, 4)
-	Player 2, Scout 6: (3, 5) -> (3, 4)
-	Player 2, Scout 7: (3, 4) -> (3, 3)
-	Player 2, Scout 8: (3, 4) -> (3, 3)
-	Player 2, Scout 9: (3, 4) -> (3, 3)
-	Player 2, Scout 10: (3, 4) -> (3, 3)
-	Player 2, Scout 11: (3, 4) -> (3, 3)
-	Player 2, Scout 12: (3, 4) -> (3, 3)
-	Player 2, Scout 13: (3, 4) -> (3, 3)
-	Player 2, Scout 14: (3, 4) -> (3, 3)
-	Player 2, Scout 15: (3, 4) -> (3, 3)
-	Player 2, Scout 16: (3, 4) -> (3, 3)
-	Player 2, Scout 17: (3, 4) -> (3, 3)
-	Player 2, Scout 18: (3, 4) -> (3, 3)
-	Player 2, Scout 19: (3, 4) -> (3, 3)
-	Player 2, Scout 20: (3, 4) -> (3, 3)
-	Player 2, Scout 21: (3, 4) -> (3, 3)
-	Player 2, Scout 22: (3, 4) -> (3, 3)
-	Player 2, Scout 23: (3, 4) -> (3, 3)
-	Player 2, Scout 24: (3, 4) -> (3, 3)
-	Player 2, Scout 25: (3, 4) -> (3, 3)
-	Player 2, Scout 26: (3, 4) -> (3, 3)
-	Player 2, Scout 27: (3, 4) -> (3, 3)
-	Player 2, Scout 28: (3, 4) -> (3, 3)
-	Player 2, Scout 29: (3, 4) -> (3, 3)
-	Player 2, Scout 30: (3, 4) -> (3, 3)
-	Player 2, Scout 31: (3, 4) -> (3, 3)
-	Player 2, Scout 32: (3, 4) -> (3, 3)
-	Player 2, Scout 33: (3, 4) -> (3, 3)
-	Player 2, Scout 34: (3, 4) -> (3, 3)
+	Player 2, Scout 1: (3, 4) -> (3, 3)
+	Player 2, Cruiser 1: (1, 6) -> (0, 6)
+	Player 2, Cruiser 2: (1, 6) -> (1, 5)
+	Player 2, Cruiser 3: (2, 5) -> (2, 4)
+	Player 2, Cruiser 4: (3, 4) -> (3, 3)
+	Player 2, Cruiser 5: (4, 5) -> (4, 4)
+	Player 2, Cruiser 6: (5, 6) -> (5, 5)
+	Player 2, Cruiser 7: (5, 6) -> (6, 6)
+	Player 2, Cruiser 8: (3, 4) -> (3, 3)
+	Player 2, Cruiser 9: (3, 4) -> (3, 3)
+	Player 2, Cruiser 10: (3, 4) -> (3, 3)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 3 MOVEMENT PHASE
@@ -247,1297 +127,953 @@ BEGIN TURN 3 COMBAT PHASE
 
 	Combat at: (3, 3)
 
+		Attacker: Player 1 Cruiser 4
+		Defender: Player 2 Cruiser 8
+		Miss
+
+		Attacker: Player 1 Cruiser 8
+		Defender: Player 2 Scout 1
+		Hit!
+
+		Player 1 Cruiser 8 dealt 1 dmg to Player 2 Scout 1
+		Player 2 Scout 1 was destroyed
+
+		Attacker: Player 1 Cruiser 9
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 10
+		Miss
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 4
+		Miss
+
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 4
+		Miss
+
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 9
+		Miss
+
+		Attacker: Player 2 Cruiser 10
+		Defender: Player 1 Cruiser 8
+		Miss
+
 		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 14
+		Defender: Player 2 Cruiser 10
 		Miss
-
-		Attacker: Player 1 Scout 2
-		Defender: Player 2 Scout 24
-		Hit!
-
-		Player 1 Scout 2 dealt 1 dmg to Player 2 Scout 24
-		Player 2 Scout 24 was destroyed
-
-		Attacker: Player 1 Scout 3
-		Defender: Player 2 Scout 18
-		Miss
-
-		Attacker: Player 1 Scout 4
-		Defender: Player 2 Scout 22
-		Miss
-
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 6
-		Defender: Player 2 Scout 7
-		Miss
-
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 15
-		Miss
-
-		Attacker: Player 1 Scout 8
-		Defender: Player 2 Scout 14
-		Miss
-
-		Attacker: Player 1 Scout 9
-		Defender: Player 2 Scout 29
-		Miss
-
-		Attacker: Player 1 Scout 10
-		Defender: Player 2 Scout 24
-		Miss
-
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 22
-		Miss
-
-		Attacker: Player 1 Scout 12
-		Defender: Player 2 Scout 27
-		Hit!
-
-		Player 1 Scout 12 dealt 1 dmg to Player 2 Scout 27
-		Player 2 Scout 27 was destroyed
-
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 14
-		Hit!
-
-		Player 1 Scout 13 dealt 1 dmg to Player 2 Scout 14
-		Player 2 Scout 14 was destroyed
-
-		Attacker: Player 1 Scout 14
-		Defender: Player 2 Scout 34
-		Miss
-
-		Attacker: Player 1 Scout 15
-		Defender: Player 2 Scout 19
-		Hit!
-
-		Player 1 Scout 15 dealt 1 dmg to Player 2 Scout 19
-		Player 2 Scout 19 was destroyed
-
-		Attacker: Player 1 Scout 16
-		Defender: Player 2 Scout 28
-		Hit!
-
-		Player 1 Scout 16 dealt 1 dmg to Player 2 Scout 28
-		Player 2 Scout 28 was destroyed
-
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 12
-		Miss
-
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 8
-		Miss
-
-		Attacker: Player 1 Scout 19
-		Defender: Player 2 Scout 31
-		Hit!
-
-		Player 1 Scout 19 dealt 1 dmg to Player 2 Scout 31
-		Player 2 Scout 31 was destroyed
-
-		Attacker: Player 1 Scout 20
-		Defender: Player 2 Scout 33
-		Miss
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 22
-		Miss
-
-		Attacker: Player 1 Scout 22
-		Defender: Player 2 Scout 30
-		Miss
-
-		Attacker: Player 1 Scout 23
-		Defender: Player 2 Scout 29
-		Miss
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 19
-		Miss
-
-		Attacker: Player 1 Scout 25
-		Defender: Player 2 Scout 21
-		Hit!
-
-		Player 1 Scout 25 dealt 1 dmg to Player 2 Scout 21
-		Player 2 Scout 21 was destroyed
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 18
-		Hit!
-
-		Player 1 Scout 26 dealt 1 dmg to Player 2 Scout 18
-		Player 2 Scout 18 was destroyed
-
-		Attacker: Player 1 Scout 27
-		Defender: Player 2 Scout 8
-		Hit!
-
-		Player 1 Scout 27 dealt 1 dmg to Player 2 Scout 8
-		Player 2 Scout 8 was destroyed
-
-		Attacker: Player 1 Scout 28
-		Defender: Player 2 Scout 22
-		Miss
-
-		Attacker: Player 1 Scout 29
-		Defender: Player 2 Scout 15
-		Miss
-
-		Attacker: Player 1 Scout 30
-		Defender: Player 2 Scout 31
-		Miss
-
-		Attacker: Player 1 Scout 31
-		Defender: Player 2 Scout 20
-		Miss
-
-		Attacker: Player 1 Scout 32
-		Defender: Player 2 Scout 33
-		Miss
-
-		Attacker: Player 1 Scout 33
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 24
-		Miss
-
-		Attacker: Player 2 Scout 7
-		Defender: Player 1 Scout 27
-		Miss
-
-		Attacker: Player 2 Scout 9
-		Defender: Player 1 Scout 15
-		Miss
-
-		Attacker: Player 2 Scout 10
-		Defender: Player 1 Scout 2
-		Miss
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 11
-		Miss
-
-		Attacker: Player 2 Scout 12
-		Defender: Player 1 Scout 7
-		Miss
-
-		Attacker: Player 2 Scout 13
-		Defender: Player 1 Scout 18
-		Miss
-
-		Attacker: Player 2 Scout 15
-		Defender: Player 1 Scout 8
-		Hit!
-
-		Player 2 Scout 15 dealt 1 dmg to Player 1 Scout 8
-		Player 1 Scout 8 was destroyed
-
-		Attacker: Player 2 Scout 16
-		Defender: Player 1 Scout 31
-		Miss
-
-		Attacker: Player 2 Scout 17
-		Defender: Player 1 Scout 6
-		Miss
-
-		Attacker: Player 2 Scout 20
-		Defender: Player 1 Scout 5
-		Miss
-
-		Attacker: Player 2 Scout 22
-		Defender: Player 1 Scout 10
-		Hit!
-
-		Player 2 Scout 22 dealt 1 dmg to Player 1 Scout 10
-		Player 1 Scout 10 was destroyed
-
-		Attacker: Player 2 Scout 23
-		Defender: Player 1 Scout 19
-		Miss
-
-		Attacker: Player 2 Scout 25
-		Defender: Player 1 Scout 27
-		Hit!
-
-		Player 2 Scout 25 dealt 1 dmg to Player 1 Scout 27
-		Player 1 Scout 27 was destroyed
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 3
-		Miss
-
-		Attacker: Player 2 Scout 29
-		Defender: Player 1 Scout 3
-		Miss
-
-		Attacker: Player 2 Scout 30
-		Defender: Player 1 Scout 22
-		Miss
-
-		Attacker: Player 2 Scout 32
-		Defender: Player 1 Scout 18
-		Miss
-
-		Attacker: Player 2 Scout 33
-		Defender: Player 1 Scout 16
-		Hit!
-
-		Player 2 Scout 33 dealt 1 dmg to Player 1 Scout 16
-		Player 1 Scout 16 was destroyed
-
-		Attacker: Player 2 Scout 34
-		Defender: Player 1 Scout 20
-		Hit!
-
-		Player 2 Scout 34 dealt 1 dmg to Player 1 Scout 20
-		Player 1 Scout 20 was destroyed
 
 END TURN 3 COMBAT PHASE
 
 BEGIN TURN 4 MOVEMENT PHASE
 
+	Player 1, Cruiser 1: (0, 0) -> (0, 1)
+	Player 1, Cruiser 2: (1, 1) -> (1, 2)
+	Player 1, Cruiser 3: (2, 2) -> (2, 3)
+	Player 1, Cruiser 5: (4, 2) -> (4, 3)
+	Player 1, Cruiser 6: (5, 1) -> (5, 2)
+	Player 1, Cruiser 7: (6, 0) -> (6, 1)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
-	Player 2, Scout 1: (3, 4) -> (3, 3)
-	Player 2, Scout 2: (3, 4) -> (3, 3)
-	Player 2, Scout 3: (3, 4) -> (3, 3)
-	Player 2, Scout 4: (3, 4) -> (3, 3)
-	Player 2, Scout 5: (3, 4) -> (3, 3)
-	Player 2, Scout 6: (3, 4) -> (3, 3)
+	Player 2, Cruiser 1: (0, 6) -> (0, 5)
+	Player 2, Cruiser 2: (1, 5) -> (1, 4)
+	Player 2, Cruiser 3: (2, 4) -> (2, 3)
+	Player 2, Cruiser 5: (4, 4) -> (4, 3)
+	Player 2, Cruiser 6: (5, 5) -> (5, 4)
+	Player 2, Cruiser 7: (6, 6) -> (6, 5)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 4 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(3, 3), (2, 3), (4, 3)]
 
 BEGIN TURN 4 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 10
+		Attacker: Player 1 Cruiser 4
+		Defender: Player 2 Cruiser 10
+		Miss
+
+		Attacker: Player 1 Cruiser 8
+		Defender: Player 2 Cruiser 8
+		Miss
+
+		Attacker: Player 1 Cruiser 9
+		Defender: Player 2 Cruiser 8
+		Miss
+
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 10
 		Hit!
 
-		Player 1 Scout 1 dealt 1 dmg to Player 2 Scout 10
-		Player 2 Scout 10 was destroyed
+		Player 1 Cruiser 10 dealt 1 dmg to Player 2 Cruiser 10
 
-		Attacker: Player 1 Scout 2
-		Defender: Player 2 Scout 1
-		Miss
-
-		Attacker: Player 1 Scout 3
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 4
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 1
-		Miss
-
-		Attacker: Player 1 Scout 6
-		Defender: Player 2 Scout 12
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 4
 		Hit!
 
-		Player 1 Scout 6 dealt 1 dmg to Player 2 Scout 12
-		Player 2 Scout 12 was destroyed
+		Player 2 Cruiser 4 dealt 1 dmg to Player 1 Cruiser 4
 
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 22
-		Miss
-
-		Attacker: Player 1 Scout 9
-		Defender: Player 2 Scout 23
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Scout 1
 		Hit!
 
-		Player 1 Scout 9 dealt 1 dmg to Player 2 Scout 23
-		Player 2 Scout 23 was destroyed
+		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Scout 1
+		Player 1 Scout 1 was destroyed
 
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 12
-		Defender: Player 2 Scout 29
-		Miss
-
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 14
-		Defender: Player 2 Scout 3
-		Miss
-
-		Attacker: Player 1 Scout 15
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 32
-		Miss
-
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 19
-		Defender: Player 2 Scout 20
-		Miss
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 17
-		Miss
-
-		Attacker: Player 1 Scout 22
-		Defender: Player 2 Scout 20
-		Miss
-
-		Attacker: Player 1 Scout 23
-		Defender: Player 2 Scout 22
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 9
 		Hit!
 
-		Player 1 Scout 23 dealt 1 dmg to Player 2 Scout 22
-		Player 2 Scout 22 was destroyed
+		Player 2 Cruiser 9 dealt 1 dmg to Player 1 Cruiser 9
 
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 26
+		Attacker: Player 2 Cruiser 10
+		Defender: Player 1 Cruiser 9
+		Miss
+	Combat at: (2, 3)
+
+		Attacker: Player 1 Cruiser 3
+		Defender: Player 2 Cruiser 3
 		Miss
 
-		Attacker: Player 1 Scout 25
-		Defender: Player 2 Scout 22
+		Attacker: Player 2 Cruiser 3
+		Defender: Player 1 Cruiser 3
+		Miss
+	Combat at: (4, 3)
+
+		Attacker: Player 1 Cruiser 5
+		Defender: Player 2 Cruiser 5
 		Hit!
 
-		Player 1 Scout 25 dealt 1 dmg to Player 2 Scout 22
+		Player 1 Cruiser 5 dealt 1 dmg to Player 2 Cruiser 5
 
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 28
-		Defender: Player 2 Scout 34
+		Attacker: Player 2 Cruiser 5
+		Defender: Player 1 Cruiser 5
 		Hit!
 
-		Player 1 Scout 28 dealt 1 dmg to Player 2 Scout 34
-		Player 2 Scout 34 was destroyed
-
-		Attacker: Player 1 Scout 29
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 30
-		Defender: Player 2 Scout 29
-		Miss
-
-		Attacker: Player 1 Scout 31
-		Defender: Player 2 Scout 3
-		Miss
-
-		Attacker: Player 1 Scout 32
-		Defender: Player 2 Scout 1
-		Miss
-
-		Attacker: Player 1 Scout 33
-		Defender: Player 2 Scout 5
-		Miss
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 7
-		Miss
-
-		Attacker: Player 2 Scout 7
-		Defender: Player 1 Scout 2
-		Hit!
-
-		Player 2 Scout 7 dealt 1 dmg to Player 1 Scout 2
-		Player 1 Scout 2 was destroyed
-
-		Attacker: Player 2 Scout 9
-		Defender: Player 1 Scout 14
-		Miss
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 25
-		Miss
-
-		Attacker: Player 2 Scout 13
-		Defender: Player 1 Scout 12
-		Miss
-
-		Attacker: Player 2 Scout 15
-		Defender: Player 1 Scout 24
-		Miss
-
-		Attacker: Player 2 Scout 16
-		Defender: Player 1 Scout 6
-		Miss
-
-		Attacker: Player 2 Scout 17
-		Defender: Player 1 Scout 6
-		Miss
-
-		Attacker: Player 2 Scout 20
-		Defender: Player 1 Scout 30
-		Miss
-
-		Attacker: Player 2 Scout 22
-		Defender: Player 1 Scout 33
-		Miss
-
-		Attacker: Player 2 Scout 25
-		Defender: Player 1 Scout 11
-		Miss
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 31
-		Miss
-
-		Attacker: Player 2 Scout 29
-		Defender: Player 1 Scout 4
-		Hit!
-
-		Player 2 Scout 29 dealt 1 dmg to Player 1 Scout 4
-		Player 1 Scout 4 was destroyed
-
-		Attacker: Player 2 Scout 30
-		Defender: Player 1 Scout 23
-		Hit!
-
-		Player 2 Scout 30 dealt 1 dmg to Player 1 Scout 23
-		Player 1 Scout 23 was destroyed
-
-		Attacker: Player 2 Scout 32
-		Defender: Player 1 Scout 12
-		Miss
-
-		Attacker: Player 2 Scout 33
-		Defender: Player 1 Scout 9
-		Miss
-
-		Attacker: Player 2 Scout 1
-		Defender: Player 1 Scout 9
-		Miss
-
-		Attacker: Player 2 Scout 2
-		Defender: Player 1 Scout 6
-		Miss
-
-		Attacker: Player 2 Scout 3
-		Defender: Player 1 Scout 25
-		Hit!
-
-		Player 2 Scout 3 dealt 1 dmg to Player 1 Scout 25
-		Player 1 Scout 25 was destroyed
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 4
-		Miss
-
-		Attacker: Player 2 Scout 5
-		Defender: Player 1 Scout 13
-		Miss
-
-		Attacker: Player 2 Scout 6
-		Defender: Player 1 Scout 26
-		Miss
+		Player 2 Cruiser 5 dealt 1 dmg to Player 1 Cruiser 5
 
 END TURN 4 COMBAT PHASE
 
 BEGIN TURN 5 MOVEMENT PHASE
 
+	Player 1, Cruiser 1: (0, 1) -> (0, 2)
+	Player 1, Cruiser 2: (1, 2) -> (1, 3)
+	Player 1, Cruiser 6: (5, 2) -> (5, 3)
+	Player 1, Cruiser 7: (6, 1) -> (6, 2)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 1: (0, 5) -> (0, 4)
+	Player 2, Cruiser 2: (1, 4) -> (1, 3)
+	Player 2, Cruiser 6: (5, 4) -> (5, 3)
+	Player 2, Cruiser 7: (6, 5) -> (6, 4)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 5 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(2, 3), (3, 3), (4, 3), (1, 3), (5, 3)]
 
 BEGIN TURN 5 COMBAT PHASE
 
+	Combat at: (2, 3)
+
+		Attacker: Player 1 Cruiser 3
+		Defender: Player 2 Cruiser 3
+		Hit!
+
+		Player 1 Cruiser 3 dealt 1 dmg to Player 2 Cruiser 3
+
+		Attacker: Player 2 Cruiser 3
+		Defender: Player 1 Cruiser 3
+		Miss
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 1
+		Attacker: Player 1 Cruiser 4
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 1 Cruiser 8
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 1 Cruiser 9
+		Defender: Player 2 Cruiser 10
+		Miss
+
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 10
+		Miss
+
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 8
+		Miss
+
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 4
+		Miss
+
+		Attacker: Player 2 Cruiser 10
+		Defender: Player 1 Cruiser 8
+		Miss
+	Combat at: (4, 3)
+
+		Attacker: Player 1 Cruiser 5
+		Defender: Player 2 Cruiser 5
+		Miss
+
+		Attacker: Player 2 Cruiser 5
+		Defender: Player 1 Cruiser 5
+		Miss
+	Combat at: (1, 3)
+
+		Attacker: Player 1 Cruiser 2
+		Defender: Player 2 Cruiser 2
 		Hit!
 
-		Player 1 Scout 1 dealt 1 dmg to Player 2 Scout 1
-		Player 2 Scout 1 was destroyed
+		Player 1 Cruiser 2 dealt 1 dmg to Player 2 Cruiser 2
 
-		Attacker: Player 1 Scout 3
-		Defender: Player 2 Scout 11
+		Attacker: Player 2 Cruiser 2
+		Defender: Player 1 Cruiser 2
+		Miss
+	Combat at: (5, 3)
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Cruiser 6
 		Miss
 
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 17
+		Attacker: Player 2 Cruiser 6
+		Defender: Player 1 Cruiser 6
 		Miss
-
-		Attacker: Player 1 Scout 6
-		Defender: Player 2 Scout 1
-		Miss
-
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 20
-		Hit!
-
-		Player 1 Scout 7 dealt 1 dmg to Player 2 Scout 20
-		Player 2 Scout 20 was destroyed
-
-		Attacker: Player 1 Scout 9
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 17
-		Miss
-
-		Attacker: Player 1 Scout 12
-		Defender: Player 2 Scout 5
-		Hit!
-
-		Player 1 Scout 12 dealt 1 dmg to Player 2 Scout 5
-		Player 2 Scout 5 was destroyed
-
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 14
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 15
-		Defender: Player 2 Scout 30
-		Miss
-
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 15
-		Miss
-
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 19
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 30
-		Miss
-
-		Attacker: Player 1 Scout 22
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 5
-		Miss
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 28
-		Defender: Player 2 Scout 15
-		Miss
-
-		Attacker: Player 1 Scout 29
-		Defender: Player 2 Scout 7
-		Miss
-
-		Attacker: Player 1 Scout 30
-		Defender: Player 2 Scout 6
-		Miss
-
-		Attacker: Player 1 Scout 31
-		Defender: Player 2 Scout 33
-		Miss
-
-		Attacker: Player 1 Scout 32
-		Defender: Player 2 Scout 20
-		Hit!
-
-		Player 1 Scout 32 dealt 1 dmg to Player 2 Scout 20
-
-		Attacker: Player 1 Scout 33
-		Defender: Player 2 Scout 1
-		Miss
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 2 Scout 7
-		Defender: Player 1 Scout 15
-		Miss
-
-		Attacker: Player 2 Scout 9
-		Defender: Player 1 Scout 5
-		Miss
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 14
-		Hit!
-
-		Player 2 Scout 11 dealt 1 dmg to Player 1 Scout 14
-		Player 1 Scout 14 was destroyed
-
-		Attacker: Player 2 Scout 13
-		Defender: Player 1 Scout 12
-		Hit!
-
-		Player 2 Scout 13 dealt 1 dmg to Player 1 Scout 12
-		Player 1 Scout 12 was destroyed
-
-		Attacker: Player 2 Scout 15
-		Defender: Player 1 Scout 3
-		Miss
-
-		Attacker: Player 2 Scout 16
-		Defender: Player 1 Scout 11
-		Miss
-
-		Attacker: Player 2 Scout 17
-		Defender: Player 1 Scout 28
-		Hit!
-
-		Player 2 Scout 17 dealt 1 dmg to Player 1 Scout 28
-		Player 1 Scout 28 was destroyed
-
-		Attacker: Player 2 Scout 20
-		Defender: Player 1 Scout 1
-		Miss
-
-		Attacker: Player 2 Scout 25
-		Defender: Player 1 Scout 33
-		Hit!
-
-		Player 2 Scout 25 dealt 1 dmg to Player 1 Scout 33
-		Player 1 Scout 33 was destroyed
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 9
-		Miss
-
-		Attacker: Player 2 Scout 29
-		Defender: Player 1 Scout 14
-		Miss
-
-		Attacker: Player 2 Scout 30
-		Defender: Player 1 Scout 31
-		Hit!
-
-		Player 2 Scout 30 dealt 1 dmg to Player 1 Scout 31
-		Player 1 Scout 31 was destroyed
-
-		Attacker: Player 2 Scout 32
-		Defender: Player 1 Scout 24
-		Miss
-
-		Attacker: Player 2 Scout 33
-		Defender: Player 1 Scout 19
-		Hit!
-
-		Player 2 Scout 33 dealt 1 dmg to Player 1 Scout 19
-		Player 1 Scout 19 was destroyed
-
-		Attacker: Player 2 Scout 2
-		Defender: Player 1 Scout 29
-		Hit!
-
-		Player 2 Scout 2 dealt 1 dmg to Player 1 Scout 29
-		Player 1 Scout 29 was destroyed
-
-		Attacker: Player 2 Scout 3
-		Defender: Player 1 Scout 15
-		Hit!
-
-		Player 2 Scout 3 dealt 1 dmg to Player 1 Scout 15
-		Player 1 Scout 15 was destroyed
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 13
-		Miss
-
-		Attacker: Player 2 Scout 6
-		Defender: Player 1 Scout 22
-		Hit!
-
-		Player 2 Scout 6 dealt 1 dmg to Player 1 Scout 22
-		Player 1 Scout 22 was destroyed
 
 END TURN 5 COMBAT PHASE
 
 BEGIN TURN 6 MOVEMENT PHASE
 
+	Player 1, Cruiser 1: (0, 2) -> (0, 3)
+	Player 1, Cruiser 7: (6, 2) -> (6, 3)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 1: (0, 4) -> (0, 3)
+	Player 2, Cruiser 7: (6, 4) -> (6, 3)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 6 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(1, 3), (2, 3), (3, 3), (4, 3), (5, 3), (0, 3), (6, 3)]
 
 BEGIN TURN 6 COMBAT PHASE
 
+	Combat at: (1, 3)
+
+		Attacker: Player 1 Cruiser 2
+		Defender: Player 2 Cruiser 2
+		Hit!
+
+		Player 1 Cruiser 2 dealt 1 dmg to Player 2 Cruiser 2
+		Player 2 Cruiser 2 was destroyed
+	Combat at: (2, 3)
+
+		Attacker: Player 1 Cruiser 3
+		Defender: Player 2 Cruiser 3
+		Miss
+
+		Attacker: Player 2 Cruiser 3
+		Defender: Player 1 Cruiser 3
+		Hit!
+
+		Player 2 Cruiser 3 dealt 1 dmg to Player 1 Cruiser 3
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 32
+		Attacker: Player 1 Cruiser 4
+		Defender: Player 2 Cruiser 4
 		Miss
 
-		Attacker: Player 1 Scout 3
-		Defender: Player 2 Scout 17
+		Attacker: Player 1 Cruiser 8
+		Defender: Player 2 Cruiser 4
+		Miss
+
+		Attacker: Player 1 Cruiser 9
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 8
 		Hit!
 
-		Player 1 Scout 3 dealt 1 dmg to Player 2 Scout 17
-		Player 2 Scout 17 was destroyed
+		Player 2 Cruiser 4 dealt 1 dmg to Player 1 Cruiser 8
 
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 13
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 9
 		Hit!
 
-		Player 1 Scout 5 dealt 1 dmg to Player 2 Scout 13
-		Player 2 Scout 13 was destroyed
+		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Cruiser 9
+		Player 1 Cruiser 9 was destroyed
 
-		Attacker: Player 1 Scout 6
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 15
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 4
 		Hit!
 
-		Player 1 Scout 7 dealt 1 dmg to Player 2 Scout 15
-		Player 2 Scout 15 was destroyed
+		Player 2 Cruiser 9 dealt 1 dmg to Player 1 Cruiser 4
+		Player 1 Cruiser 4 was destroyed
 
-		Attacker: Player 1 Scout 9
-		Defender: Player 2 Scout 4
+		Attacker: Player 2 Cruiser 10
+		Defender: Player 1 Cruiser 4
+		Miss
+	Combat at: (4, 3)
+
+		Attacker: Player 1 Cruiser 5
+		Defender: Player 2 Cruiser 5
 		Miss
 
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 33
+		Attacker: Player 2 Cruiser 5
+		Defender: Player 1 Cruiser 5
 		Hit!
 
-		Player 1 Scout 11 dealt 1 dmg to Player 2 Scout 33
-		Player 2 Scout 33 was destroyed
+		Player 2 Cruiser 5 dealt 1 dmg to Player 1 Cruiser 5
+		Player 1 Cruiser 5 was destroyed
+	Combat at: (5, 3)
 
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 26
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Cruiser 6
 		Miss
 
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 26
+		Attacker: Player 2 Cruiser 6
+		Defender: Player 1 Cruiser 6
+		Miss
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
 		Miss
 
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 6
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (6, 3)
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Cruiser 7
 		Miss
 
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 2
-		Hit!
-
-		Player 1 Scout 21 dealt 1 dmg to Player 2 Scout 2
-		Player 2 Scout 2 was destroyed
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 4
-		Miss
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 7
-		Hit!
-
-		Player 1 Scout 26 dealt 1 dmg to Player 2 Scout 7
-		Player 2 Scout 7 was destroyed
-
-		Attacker: Player 1 Scout 30
-		Defender: Player 2 Scout 15
-		Hit!
-
-		Player 1 Scout 30 dealt 1 dmg to Player 2 Scout 15
-
-		Attacker: Player 1 Scout 32
-		Defender: Player 2 Scout 13
-		Hit!
-
-		Player 1 Scout 32 dealt 1 dmg to Player 2 Scout 13
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 2 Scout 9
-		Defender: Player 1 Scout 3
-		Hit!
-
-		Player 2 Scout 9 dealt 1 dmg to Player 1 Scout 3
-		Player 1 Scout 3 was destroyed
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 34
-		Miss
-
-		Attacker: Player 2 Scout 13
-		Defender: Player 1 Scout 9
-		Miss
-
-		Attacker: Player 2 Scout 15
-		Defender: Player 1 Scout 5
-		Miss
-
-		Attacker: Player 2 Scout 16
-		Defender: Player 1 Scout 26
-		Miss
-
-		Attacker: Player 2 Scout 25
-		Defender: Player 1 Scout 18
-		Miss
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 17
-		Miss
-
-		Attacker: Player 2 Scout 29
-		Defender: Player 1 Scout 21
-		Miss
-
-		Attacker: Player 2 Scout 30
-		Defender: Player 1 Scout 6
-		Hit!
-
-		Player 2 Scout 30 dealt 1 dmg to Player 1 Scout 6
-		Player 1 Scout 6 was destroyed
-
-		Attacker: Player 2 Scout 32
-		Defender: Player 1 Scout 1
-		Miss
-
-		Attacker: Player 2 Scout 3
-		Defender: Player 1 Scout 5
-		Miss
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 9
-		Hit!
-
-		Player 2 Scout 4 dealt 1 dmg to Player 1 Scout 9
-		Player 1 Scout 9 was destroyed
-
-		Attacker: Player 2 Scout 6
-		Defender: Player 1 Scout 24
+		Attacker: Player 2 Cruiser 7
+		Defender: Player 1 Cruiser 7
 		Miss
 
 END TURN 6 COMBAT PHASE
 
 BEGIN TURN 7 MOVEMENT PHASE
 
+	Player 1, Cruiser 2: (1, 3) -> (1, 4)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 5: (4, 3) -> (4, 2)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 7 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(0, 3), (2, 3), (5, 3), (6, 3), (3, 3)]
 
 BEGIN TURN 7 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (2, 3)
+
+		Attacker: Player 1 Cruiser 3
+		Defender: Player 2 Cruiser 3
+		Miss
+
+		Attacker: Player 2 Cruiser 3
+		Defender: Player 1 Cruiser 3
+		Miss
+	Combat at: (5, 3)
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Cruiser 6
+		Hit!
+
+		Player 1 Cruiser 6 dealt 1 dmg to Player 2 Cruiser 6
+
+		Attacker: Player 2 Cruiser 6
+		Defender: Player 1 Cruiser 6
+		Miss
+	Combat at: (6, 3)
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Cruiser 7
+		Hit!
+
+		Player 1 Cruiser 7 dealt 1 dmg to Player 2 Cruiser 7
+
+		Attacker: Player 2 Cruiser 7
+		Defender: Player 1 Cruiser 7
+		Miss
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 4
-		Miss
-
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 30
+		Attacker: Player 1 Cruiser 8
+		Defender: Player 2 Cruiser 8
 		Hit!
 
-		Player 1 Scout 5 dealt 1 dmg to Player 2 Scout 30
-		Player 2 Scout 30 was destroyed
+		Player 1 Cruiser 8 dealt 1 dmg to Player 2 Cruiser 8
 
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 4
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 9
 		Miss
 
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 9
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 10
 		Miss
 
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 6
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 10
 		Miss
 
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 29
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 8
 		Miss
 
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 30
-		Miss
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 30
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 32
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 16
+		Attacker: Player 2 Cruiser 10
+		Defender: Player 1 Cruiser 8
 		Hit!
 
-		Player 1 Scout 34 dealt 1 dmg to Player 2 Scout 16
-		Player 2 Scout 16 was destroyed
-
-		Attacker: Player 2 Scout 9
-		Defender: Player 1 Scout 17
-		Miss
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 24
-		Miss
-
-		Attacker: Player 2 Scout 25
-		Defender: Player 1 Scout 5
-		Miss
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 32
-		Hit!
-
-		Player 2 Scout 26 dealt 1 dmg to Player 1 Scout 32
-		Player 1 Scout 32 was destroyed
-
-		Attacker: Player 2 Scout 29
-		Defender: Player 1 Scout 32
-		Miss
-
-		Attacker: Player 2 Scout 32
-		Defender: Player 1 Scout 34
-		Miss
-
-		Attacker: Player 2 Scout 3
-		Defender: Player 1 Scout 30
-		Hit!
-
-		Player 2 Scout 3 dealt 1 dmg to Player 1 Scout 30
-		Player 1 Scout 30 was destroyed
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 32
-		Miss
-
-		Attacker: Player 2 Scout 6
-		Defender: Player 1 Scout 26
-		Miss
+		Player 2 Cruiser 10 dealt 1 dmg to Player 1 Cruiser 8
+		Player 1 Cruiser 8 was destroyed
 
 END TURN 7 COMBAT PHASE
 
 BEGIN TURN 8 MOVEMENT PHASE
 
+	Player 1, Cruiser 2: (1, 4) -> (1, 5)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 5: (4, 2) -> (4, 1)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 8 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(0, 3), (2, 3), (5, 3), (6, 3), (3, 3)]
 
 BEGIN TURN 8 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (2, 3)
+
+		Attacker: Player 1 Cruiser 3
+		Defender: Player 2 Cruiser 3
+		Hit!
+
+		Player 1 Cruiser 3 dealt 1 dmg to Player 2 Cruiser 3
+		Player 2 Cruiser 3 was destroyed
+	Combat at: (5, 3)
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Cruiser 6
+		Hit!
+
+		Player 1 Cruiser 6 dealt 1 dmg to Player 2 Cruiser 6
+		Player 2 Cruiser 6 was destroyed
+	Combat at: (6, 3)
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Cruiser 7
+		Miss
+
+		Attacker: Player 2 Cruiser 7
+		Defender: Player 1 Cruiser 7
+		Miss
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 9
-		Miss
-
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 25
-		Miss
-
-		Attacker: Player 1 Scout 11
-		Defender: Player 2 Scout 3
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 10
 		Hit!
 
-		Player 1 Scout 11 dealt 1 dmg to Player 2 Scout 3
-		Player 2 Scout 3 was destroyed
+		Player 1 Cruiser 10 dealt 1 dmg to Player 2 Cruiser 10
+		Player 2 Cruiser 10 was destroyed
 
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 6
-		Hit!
-
-		Player 1 Scout 13 dealt 1 dmg to Player 2 Scout 6
-		Player 2 Scout 6 was destroyed
-
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 11
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 10
 		Miss
 
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 25
-		Hit!
-
-		Player 1 Scout 18 dealt 1 dmg to Player 2 Scout 25
-		Player 2 Scout 25 was destroyed
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 32
-		Hit!
-
-		Player 1 Scout 21 dealt 1 dmg to Player 2 Scout 32
-		Player 2 Scout 32 was destroyed
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 9
-		Hit!
-
-		Player 1 Scout 24 dealt 1 dmg to Player 2 Scout 9
-		Player 2 Scout 9 was destroyed
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 4
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 10
 		Miss
 
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 29
-		Hit!
-
-		Player 1 Scout 34 dealt 1 dmg to Player 2 Scout 29
-		Player 2 Scout 29 was destroyed
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 1
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 10
 		Miss
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 24
-		Miss
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 11
-		Hit!
-
-		Player 2 Scout 4 dealt 1 dmg to Player 1 Scout 11
-		Player 1 Scout 11 was destroyed
 
 END TURN 8 COMBAT PHASE
 
 BEGIN TURN 9 MOVEMENT PHASE
 
+	Player 1, Cruiser 2: (1, 5) -> (1, 6)
+	Player 1, Cruiser 3: (2, 3) -> (2, 4)
+	Player 1, Cruiser 6: (5, 3) -> (5, 4)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 5: (4, 1) -> (4, 0)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
 
 
 END TURN 9 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(0, 3), (6, 3), (3, 3), (4, 0)]
 
 BEGIN TURN 9 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (6, 3)
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Cruiser 7
+		Hit!
+
+		Player 1 Cruiser 7 dealt 1 dmg to Player 2 Cruiser 7
+		Player 2 Cruiser 7 was destroyed
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 4
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 9
+		Miss
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 10
+		Miss
+
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 10
 		Hit!
 
-		Player 1 Scout 1 dealt 1 dmg to Player 2 Scout 4
-		Player 2 Scout 4 was destroyed
+		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Cruiser 10
 
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 4
-		Hit!
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Cruiser 10
+		Miss
+	Combat at: (4, 0)
 
-		Player 1 Scout 5 dealt 1 dmg to Player 2 Scout 4
-
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 4
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Cruiser 5
 		Miss
 
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 4
-		Hit!
-
-		Player 1 Scout 13 dealt 1 dmg to Player 2 Scout 4
-
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 18
-		Defender: Player 2 Scout 11
-		Miss
-
-		Attacker: Player 1 Scout 21
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 24
-		Defender: Player 2 Scout 4
-		Miss
-
-		Attacker: Player 1 Scout 26
-		Defender: Player 2 Scout 26
-		Miss
-
-		Attacker: Player 1 Scout 34
-		Defender: Player 2 Scout 4
-		Miss
-
-		Attacker: Player 2 Scout 11
-		Defender: Player 1 Scout 18
-		Miss
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 21
-		Hit!
-
-		Player 2 Scout 26 dealt 1 dmg to Player 1 Scout 21
-		Player 1 Scout 21 was destroyed
-
-		Attacker: Player 2 Scout 4
-		Defender: Player 1 Scout 21
+		Attacker: Player 2 Cruiser 5
+		Defender: Player 1 Dreadnaught 2
 		Miss
 
 END TURN 9 COMBAT PHASE
 
 BEGIN TURN 10 MOVEMENT PHASE
 
+	Player 1, Cruiser 2: (1, 6) -> (2, 6)
+	Player 1, Cruiser 3: (2, 4) -> (2, 5)
+	Player 1, Cruiser 6: (5, 4) -> (5, 5)
+	Player 1, Cruiser 7: (6, 3) -> (6, 4)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
 
 
 END TURN 10 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(0, 3), (3, 3), (4, 0), (2, 6)]
 
 BEGIN TURN 10 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Hit!
+
+		Player 1 Cruiser 1 dealt 1 dmg to Player 2 Cruiser 1
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Scout 1
-		Defender: Player 2 Scout 11
+		Attacker: Player 1 Cruiser 10
+		Defender: Player 2 Cruiser 4
 		Miss
 
-		Attacker: Player 1 Scout 5
-		Defender: Player 2 Scout 11
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Cruiser 10
 		Miss
 
-		Attacker: Player 1 Scout 7
-		Defender: Player 2 Scout 26
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Cruiser 10
 		Hit!
 
-		Player 1 Scout 7 dealt 1 dmg to Player 2 Scout 26
-		Player 2 Scout 26 was destroyed
+		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Cruiser 10
+		Player 1 Cruiser 10 was destroyed
+	Combat at: (4, 0)
 
-		Attacker: Player 1 Scout 13
-		Defender: Player 2 Scout 26
-		Hit!
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Cruiser 5
+		Miss
 
-		Player 1 Scout 13 dealt 1 dmg to Player 2 Scout 26
+		Attacker: Player 2 Cruiser 5
+		Defender: Player 1 Dreadnaught 2
+		Miss
+	Combat at: (2, 6)
 
-		Attacker: Player 1 Scout 17
-		Defender: Player 2 Scout 11
-		Hit!
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Cruiser 2
+		Miss
 
-		Player 1 Scout 17 dealt 1 dmg to Player 2 Scout 11
-		Player 2 Scout 11 was destroyed
-
-		Attacker: Player 2 Scout 26
-		Defender: Player 1 Scout 26
+		Attacker: Player 1 Cruiser 2
+		Defender: Player 2 Dreadnaught 3
 		Miss
 
 END TURN 10 COMBAT PHASE
 
 BEGIN TURN 11 MOVEMENT PHASE
 
-	Player 1, Scout 1: (3, 3) -> (3, 4)
-	Player 1, Scout 5: (3, 3) -> (3, 4)
-	Player 1, Scout 7: (3, 3) -> (3, 4)
-	Player 1, Scout 13: (3, 3) -> (3, 4)
-	Player 1, Scout 17: (3, 3) -> (3, 4)
-	Player 1, Scout 18: (3, 3) -> (3, 4)
-	Player 1, Scout 24: (3, 3) -> (3, 4)
-	Player 1, Scout 26: (3, 3) -> (3, 4)
-	Player 1, Scout 34: (3, 3) -> (3, 4)
+	Player 1, Cruiser 3: (2, 5) -> (2, 6)
+	Player 1, Cruiser 6: (5, 5) -> (5, 6)
+	Player 1, Cruiser 7: (6, 4) -> (6, 5)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 4: (3, 3) -> (3, 2)
+	Player 2, Cruiser 8: (3, 3) -> (3, 2)
+	Player 2, Cruiser 9: (3, 3) -> (3, 2)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 2: (4, 6) -> (4, 6)
 
 
 END TURN 11 MOVEMENT PHASE
 
-Combat Coords: []
+Combat Coords: [(0, 3), (2, 6), (4, 0)]
 
 BEGIN TURN 11 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (2, 6)
+
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Cruiser 3
+		Hit!
+
+		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Cruiser 3
+		Player 1 Cruiser 3 was destroyed
+
+		Attacker: Player 1 Cruiser 2
+		Defender: Player 2 Dreadnaught 3
+		Miss
+	Combat at: (4, 0)
+
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Cruiser 5
+		Hit!
+
+		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 5
+		Player 2 Cruiser 5 was destroyed
 
 END TURN 11 COMBAT PHASE
 
 BEGIN TURN 12 MOVEMENT PHASE
 
-	Player 1, Scout 1: (3, 4) -> (3, 5)
-	Player 1, Scout 5: (3, 4) -> (3, 5)
-	Player 1, Scout 7: (3, 4) -> (3, 5)
-	Player 1, Scout 13: (3, 4) -> (3, 5)
-	Player 1, Scout 17: (3, 4) -> (3, 5)
-	Player 1, Scout 18: (3, 4) -> (3, 5)
-	Player 1, Scout 24: (3, 4) -> (3, 5)
-	Player 1, Scout 26: (3, 4) -> (3, 5)
-	Player 1, Scout 34: (3, 4) -> (3, 5)
+	Player 1, Cruiser 6: (5, 6) -> (4, 6)
+	Player 1, Cruiser 7: (6, 5) -> (6, 6)
+	Player 1, Dreadnaught 1: (3, 1) -> (3, 1)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Cruiser 4: (3, 2) -> (3, 1)
+	Player 2, Cruiser 8: (3, 2) -> (3, 1)
+	Player 2, Cruiser 9: (3, 2) -> (3, 1)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
 
 
 END TURN 12 MOVEMENT PHASE
 
-Combat Coords: []
+Combat Coords: [(0, 3), (2, 6), (4, 6), (3, 1)]
 
 BEGIN TURN 12 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Miss
+	Combat at: (2, 6)
+
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Cruiser 2
+		Hit!
+
+		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Cruiser 2
+
+		Attacker: Player 1 Cruiser 2
+		Defender: Player 2 Dreadnaught 3
+		Miss
+	Combat at: (4, 6)
+
+		Attacker: Player 2 Dreadnaught 2
+		Defender: Player 1 Cruiser 6
+		Miss
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Dreadnaught 2
+		Miss
+	Combat at: (3, 1)
+
+		Attacker: Player 1 Dreadnaught 1
+		Defender: Player 2 Cruiser 4
+		Miss
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Dreadnaught 1
+		Hit!
+
+		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Dreadnaught 1
+
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Dreadnaught 1
+		Miss
 
 END TURN 12 COMBAT PHASE
 
 BEGIN TURN 13 MOVEMENT PHASE
 
-	Player 1, Scout 1: (3, 5) -> (3, 6)
-	Player 1, Scout 5: (3, 5) -> (3, 6)
-	Player 1, Scout 7: (3, 5) -> (3, 6)
-	Player 1, Scout 13: (3, 5) -> (3, 6)
-	Player 1, Scout 17: (3, 5) -> (3, 6)
-	Player 1, Scout 18: (3, 5) -> (3, 6)
-	Player 1, Scout 24: (3, 5) -> (3, 6)
-	Player 1, Scout 26: (3, 5) -> (3, 6)
-	Player 1, Scout 34: (3, 5) -> (3, 6)
+	Player 1, Cruiser 7: (6, 6) -> (5, 6)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
 
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
 
 
 END TURN 13 MOVEMENT PHASE
 
-Combat Coords: []
+Combat Coords: [(0, 3), (2, 6), (4, 6), (3, 1)]
 
 BEGIN TURN 13 COMBAT PHASE
 
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Miss
+
+		Attacker: Player 2 Cruiser 1
+		Defender: Player 1 Cruiser 1
+		Hit!
+
+		Player 2 Cruiser 1 dealt 1 dmg to Player 1 Cruiser 1
+	Combat at: (2, 6)
+
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Cruiser 2
+		Hit!
+
+		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Cruiser 2
+		Player 1 Cruiser 2 was destroyed
+	Combat at: (4, 6)
+
+		Attacker: Player 2 Dreadnaught 2
+		Defender: Player 1 Cruiser 6
+		Miss
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Dreadnaught 2
+		Miss
+	Combat at: (3, 1)
+
+		Attacker: Player 1 Dreadnaught 1
+		Defender: Player 2 Cruiser 9
+		Hit!
+
+		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 9
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Dreadnaught 1
+		Hit!
+
+		Player 2 Cruiser 4 dealt 1 dmg to Player 1 Dreadnaught 1
+
+		Attacker: Player 2 Cruiser 8
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Cruiser 9
+		Defender: Player 1 Dreadnaught 1
+		Miss
 
 END TURN 13 COMBAT PHASE
 
-Winner: Player 1
+BEGIN TURN 14 MOVEMENT PHASE
+
+	Player 1, Cruiser 7: (5, 6) -> (4, 6)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
+
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
+
+
+END TURN 14 MOVEMENT PHASE
+
+Combat Coords: [(0, 3), (4, 6), (3, 1)]
+
+BEGIN TURN 14 COMBAT PHASE
+
+	Combat at: (0, 3)
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Cruiser 1
+		Hit!
+
+		Player 1 Cruiser 1 dealt 1 dmg to Player 2 Cruiser 1
+		Player 2 Cruiser 1 was destroyed
+	Combat at: (4, 6)
+
+		Attacker: Player 2 Dreadnaught 2
+		Defender: Player 1 Cruiser 7
+		Hit!
+
+		Player 2 Dreadnaught 2 dealt 1 dmg to Player 1 Cruiser 7
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Dreadnaught 2
+		Miss
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Dreadnaught 2
+		Miss
+	Combat at: (3, 1)
+
+		Attacker: Player 1 Dreadnaught 1
+		Defender: Player 2 Cruiser 4
+		Hit!
+
+		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 4
+
+		Attacker: Player 2 Cruiser 4
+		Defender: Player 1 Dreadnaught 1
+		Hit!
+
+		Player 2 Cruiser 4 dealt 1 dmg to Player 1 Dreadnaught 1
+		Player 1 Dreadnaught 1 was destroyed
+
+END TURN 14 COMBAT PHASE
+
+BEGIN TURN 15 MOVEMENT PHASE
+
+	Player 1, Cruiser 1: (0, 3) -> (0, 4)
+	Player 1, Dreadnaught 2: (4, 0) -> (4, 0)
+	Player 1, Dreadnaught 3: (2, 0) -> (2, 0)
+
+	Player 2, Cruiser 4: (3, 1) -> (3, 0)
+	Player 2, Cruiser 8: (3, 1) -> (3, 0)
+	Player 2, Cruiser 9: (3, 1) -> (3, 0)
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 5)
+	Player 2, Dreadnaught 3: (2, 6) -> (2, 6)
+
+
+END TURN 15 MOVEMENT PHASE
+
+Combat Coords: [(4, 6)]
+
+BEGIN TURN 15 COMBAT PHASE
+
+	Combat at: (4, 6)
+
+		Attacker: Player 2 Dreadnaught 2
+		Defender: Player 1 Cruiser 7
+		Miss
+
+		Attacker: Player 1 Cruiser 6
+		Defender: Player 2 Dreadnaught 2
+		Hit!
+
+		Player 1 Cruiser 6 dealt 1 dmg to Player 2 Dreadnaught 2
+
+		Attacker: Player 1 Cruiser 7
+		Defender: Player 2 Dreadnaught 2
+		Miss
+
+END TURN 15 COMBAT PHASE
+
+Winner: Player 2
