@@ -205,10 +205,8 @@ class WallStrat:
         return [ship_dict for ship_dict in combat_order if ship_dict['player_num'] != own_player_num and ship_dict['name'] == ship_type]
 
   def buy_ships(self, cp_budget):
-    bought_ships = {'Scout': 1, 'Battlecruiser': 0, 'Battleship': 0, 'Cruiser': 10, 
+    return {'Scout': 1, 'Battlecruiser': 0, 'Battleship': 0, 'Cruiser': 10, 
       'Destroyer': 0, 'Dreadnaught': 3}
-    print('used_cp', self.get_cp_of_dict(bought_ships))
-    return bought_ships
     
   def get_cp_of_dict(self, ships_dict):
     total_cp = 0
