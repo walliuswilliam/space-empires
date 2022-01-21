@@ -10,27 +10,18 @@ from ship_data import *
 
 
 class Game:
-  def __init__(self, players, random_seed=None, board_size=[7,7], log_name=None):
+  def __init__(self, players, random_seed=None, board_len = 7, log_name='log'):
     self.players = players
     self.set_player_nums()
-    if log_name is None:
-      self.log = Logger('ver_4/logs/log.txt')
-    else:
-      self.log = Logger('ver_4/logs/{}.txt'.format(log_name))
+    self.log = Logger(f'ver_4/logs/{log_name}.txt')
     self.log.clear_log()
 
     rand.seed(random_seed)
 
-    global board_x,board_y,mid_x,mid_y
-
-    board_x, board_y = board_size
-    mid_x = board_x // 2
-    mid_y = board_y // 2
-
     self.board = {}
     
-    self.board_size = board_size
-    self.turn = 1
+    self.board_len = board_len
+    self.turn = 0
     self.winner = None
     self.combat_coords = []
 
@@ -44,7 +35,7 @@ class Game:
   def initialize_board(self):
     self.log.initialize(self.players)
     for i, player in enumerate(self.players):
-      starting_coord = (mid_x, (player.player_num-1)*(board_y-1))
+      starting_coord = (self.board_len//2, (player.player_num-1)*(self.board_len-1))
 
       hc = Colony(player.player_num, starting_coord, is_hc=True)
       player.home_colony = hc
@@ -53,7 +44,7 @@ class Game:
       bought_ships = player.strategy.buy_ships(player.cp)
       cp_used = self.get_cp_of_dict(bought_ships)
       if cp_used > player.cp:
-        self.log.write('Player {} used too much CP, no ships bought!\n'.format(player.player_num))
+        self.log.write(f'Player {player.player_num} used too much CP, no ships bought!\n')
         continue
       
       player.cp -= cp_used
@@ -62,21 +53,9 @@ class Game:
           ship = ship_objects[key](i+1, hc.coords, num_ships+1)
           self.add_to_board(ship)
           player.ships.append(ship)
-
-  def check_if_coords_are_in_bounds(self, coords):
-    x, y = coords
-    return 0 <= x <= board_x-1 and 0 <= y <= board_y-1
-
-  def check_if_translation_is_in_bounds(self, coords, translation):
-    return self.check_if_coords_are_in_bounds((coords[0]+translation[0], coords[1]+translation[1]))
-
-  def get_in_bounds_translations(self, coords):
-    translations = [(0,0), (0,1), (0,-1), (1,0), (-1,0)]
-    in_bounds_translations = []
-    for translation in translations:
-      if self.check_if_translation_is_in_bounds(coords, translation):
-        in_bounds_translations.append(translation)
-    return in_bounds_translations
+          player.ship_counter[ship.name] += 1
+    self.turn = 1
+  
 
   def movement_phase(self):
     self.log.begin_phase(self.turn, 'MOVEMENT')
@@ -93,7 +72,7 @@ class Game:
       self.log.write('\n')
     
     self.log.end_phase(self.turn, 'MOVEMENT')
-    self.log.write('\nCombat Coords: {}\n'.format(self.combat_coords))
+    self.log.write(f'\nCombat Coords: {self.combat_coords}\n')
   
   def combat_phase(self):
     self.log.begin_phase(self.turn, 'COMBAT')
@@ -138,7 +117,6 @@ class Game:
       for player in self.players:
         for ship in player.ships:
           self.log.write(f'\t\tPlayer {player.player_num} {ship.name} {ship.ship_num}\n')
-        self.log.write('\n')
     self.log.end_phase(self.turn, 'COMBAT')
   
   def economic_phase(self):
@@ -147,8 +125,7 @@ class Game:
       self.log.write(f'\tPlayer {player.player_num}:\n')
       player.cp += 10
       self.log.write(f'\t\tAvailable CP: {player.cp}')
-      sorted_ships = player.ships.copy()
-      sorted_ships.sort(reverse=True, key=lambda x: x.maint_cost)
+      sorted_ships = sorted(player.ships, reverse=True, key=lambda x: x.maint_cost)
       used_cp = 0
       for ship in sorted_ships:
         if player.cp < ship.maint_cost:
@@ -159,17 +136,21 @@ class Game:
           used_cp += ship.maint_cost
       self.log.write(f'\n\t\tUsed CP: {used_cp}\n\t\tRemaining CP: {player.cp}\n')
 
-      player.strategy.buy_ships()
+      bought_ships = player.strategy.buy_ships(player.cp)
+      cp_used = self.get_cp_of_dict(bought_ships)
+      if cp_used > player.cp:
+        self.log.write(f'Player {player.player_num} used too much CP, no ships bought!\n')
+        continue
+      
+      player.cp -= cp_used
+      for key in bought_ships:
+        for num_ships in range(bought_ships[key]):
+          ship = ship_objects[key](player.player_num, player.home_colony.coords, player.ship_counter[key]+1)
+          self.add_to_board(ship)
+          player.ships.append(ship)
+          player.ship_counter[ship.name] += 1
 
-    
     self.log.end_phase(self.turn, 'ECONOMIC')
-         
-
-  def check_winner(self):
-    for player in self.players:
-      winner = self.check_for_opponent_ships(player.player_num,player.home_colony.coords, return_pn=True)
-      if type(winner) == int:
-        self.winner = winner
   
   def run_to_completion(self, max_turns = 999999999, debug=False):
     self.check_winner()
@@ -185,6 +166,23 @@ class Game:
       if debug:
         self.print_board()
     self.log.player_win(self.winner)
+  
+  #HELPER FUNCTIONS
+  def get_in_bounds_translations(self, coords):
+    if coords == None: return []
+    in_bounds_translations = []
+    
+    for translation in [(0,0), (0,1), (0,-1), (1,0), (-1,0)]:
+      new_x, new_y = (coords[0]+translation[0], coords[1]+translation[1])
+      if 0 <= new_x <= self.board_len-1 and 0 <= new_y <= self.board_len-1:
+        in_bounds_translations.append(translation)
+    return in_bounds_translations
+
+  def check_winner(self):
+    for player in self.players:
+      winner = self.check_for_opponent_ships(player.player_num,player.home_colony.coords, return_pn=True)
+      if type(winner) == int:
+        self.winner = winner
 
   def add_to_board(self, obj):
     if obj.coords not in self.board:
@@ -200,7 +198,7 @@ class Game:
     self.update_simple_board()
 
   def move_ship(self, ship, translation):
-    if not self.check_if_translation_is_in_bounds(ship.coords, translation):
+    if translation not in self.get_in_bounds_translations(ship.coords):
       self.log.write('\tInvalid Move, Skipping...\n')
     else:
       self.remove_from_board(ship)
@@ -216,14 +214,8 @@ class Game:
         return True
     return False
 
-  def get_opp_pn(self, player):
-    pn = self.players[player.player_num-1].player_num
-    if pn == None:
-      return None
-    elif pn == 1:
-      return 2
-    elif pn == 2:
-      return 1
+  def check_for_ally_ships(self, ship_list):
+    return len(set([ship.player_num for ship in ship_list])) == 1
 
   def all_ships(self, coord):
     return [obj for obj in self.board[coord] if obj.obj_type == 'Ship']
@@ -246,23 +238,6 @@ class Game:
     player.ships.remove(ship)
     self.remove_from_board(ship)
 
-  def check_coord_for_same_player(self, ship_list):
-    return len(set([ship.player_num for ship in ship_list])) == 1
-
-  def print_board(self):
-    print('\n')
-    for x in range(board_x):
-      row_string = ''
-      for y in range(board_y):
-        try:
-          print_str = ['{}{}'.format(ship.name,ship.player_num) for ship in self.board[(x,y)] if ship.obj_type == 'Ship']
-          row_string += str(print_str)
-        except:
-          row_string += '[ ]'
-
-      print(row_string)
-    print('\n')
-
   def dict_to_obj(self, obj_dict, obj_list): #obj list = list that the desired object is in
     for obj in obj_list:
       if obj.name == obj_dict['name']:
@@ -278,7 +253,6 @@ class Game:
           total_cp += ships_dict[key]*ship['cp_cost']
     return total_cp
 
-  
   def update_combat_coords(self):
     for player in self.players:
       for ship in player.ships:
@@ -293,4 +267,15 @@ class Game:
     for player in self.players:
       player.strategy.simple_board = strat_board
       player.strategy.turn = self.turn
-    
+
+
+  def print_board(self):
+    temp_dict = {}
+    for key in self.board:
+      temp_dict[key] = []
+      for obj in self.board[key]:
+        if isinstance(obj, Colony):
+          temp_dict[key].append(('Colony', obj.player_num))
+        else:
+          temp_dict[key].append((obj.name, obj.player_num))
+    return temp_dict
