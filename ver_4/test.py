@@ -1,17 +1,17 @@
 import sys
-sys.path.append('ver_3/objects')
+sys.path.append('ver_4/objects')
 from player import *
 from game import *
 
 
-sys.path.append('ver_3/strategies/my_strategies')
+sys.path.append('ver_4/strategies/my_strategies')
 from move_off_board import *
 from move_once import *
 from move_to_colony import *
 from custom import *
 from wall_strat import WallStrat as WilliamStrat
 
-sys.path.append('ver_3/strategies/class_strategies')
+sys.path.append('ver_4/strategies/class_strategies')
 from anton import SmartRush as AntonStrat
 from cayden import CaydenStrat
 from charlie import MoveToOpponent as CharlieStrat

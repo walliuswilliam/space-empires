@@ -1,0 +1,270 @@
+Begin Game
+Player 1 Strategy: BattleStrat
+Player 2 Strategy: SmartRush
+
+BEGIN TURN 1 MOVEMENT PHASE
+
+	Player 1, Scout 1: (3, 0) -> (4, 0)
+	Player 1, Scout 2: (3, 0) -> (3, 0)
+	Player 1, Scout 3: (3, 0) -> (3, 0)
+	Player 1, Scout 4: (3, 0) -> (3, 0)
+	Player 1, Scout 5: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 1: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 4: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 5: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 6: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 7: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 2: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 3: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 4: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 5: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 6: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 7: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 8: (3, 6) -> (3, 5)
+
+
+END TURN 1 MOVEMENT PHASE
+
+Combat Coords: []
+
+BEGIN TURN 1 COMBAT PHASE
+
+
+END TURN 1 COMBAT PHASE
+
+BEGIN TURN 1 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 12
+		Not Enough CP! Removing Dreadnaught 5
+		Not Enough CP! Removing Dreadnaught 6
+		Not Enough CP! Removing Dreadnaught 7
+		Not Enough CP! Removing Scout 1
+		Not Enough CP! Removing Scout 2
+		Not Enough CP! Removing Scout 3
+		Not Enough CP! Removing Scout 4
+		Not Enough CP! Removing Scout 5
+		Used CP: 12
+		Remaining CP: 0
+	Player 2:
+		Available CP: 18
+		Not Enough CP! Removing Dreadnaught 7
+		Not Enough CP! Removing Dreadnaught 8
+		Used CP: 18
+		Remaining CP: 0
+
+END TURN 1 ECONOMIC PHASE
+
+BEGIN TURN 2 MOVEMENT PHASE
+
+	Player 1, Dreadnaught 1: (3, 0) -> (4, 0)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 4: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 2: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 3: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 4: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 5: (3, 5) -> (3, 4)
+	Player 2, Dreadnaught 6: (3, 5) -> (3, 4)
+
+
+END TURN 2 MOVEMENT PHASE
+
+Combat Coords: []
+
+BEGIN TURN 2 COMBAT PHASE
+
+
+END TURN 2 COMBAT PHASE
+
+BEGIN TURN 2 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 10
+		Not Enough CP! Removing Dreadnaught 4
+		Used CP: 9
+		Remaining CP: 1
+	Player 2:
+		Available CP: 10
+		Not Enough CP! Removing Dreadnaught 4
+		Not Enough CP! Removing Dreadnaught 5
+		Not Enough CP! Removing Dreadnaught 6
+		Used CP: 9
+		Remaining CP: 1
+
+END TURN 2 ECONOMIC PHASE
+
+BEGIN TURN 3 MOVEMENT PHASE
+
+	Player 1, Dreadnaught 1: (4, 0) -> (4, 1)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 4) -> (3, 3)
+	Player 2, Dreadnaught 2: (3, 4) -> (3, 3)
+	Player 2, Dreadnaught 3: (3, 4) -> (3, 3)
+
+
+END TURN 3 MOVEMENT PHASE
+
+Combat Coords: []
+
+BEGIN TURN 3 COMBAT PHASE
+
+
+END TURN 3 COMBAT PHASE
+
+BEGIN TURN 3 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 11
+		Used CP: 9
+		Remaining CP: 2
+	Player 2:
+		Available CP: 11
+		Used CP: 9
+		Remaining CP: 2
+
+END TURN 3 ECONOMIC PHASE
+
+BEGIN TURN 4 MOVEMENT PHASE
+
+	Player 1, Dreadnaught 1: (4, 1) -> (4, 2)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 3) -> (3, 2)
+	Player 2, Dreadnaught 2: (3, 3) -> (3, 2)
+	Player 2, Dreadnaught 3: (3, 3) -> (3, 2)
+
+
+END TURN 4 MOVEMENT PHASE
+
+Combat Coords: []
+
+BEGIN TURN 4 COMBAT PHASE
+
+
+END TURN 4 COMBAT PHASE
+
+BEGIN TURN 4 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 12
+		Used CP: 9
+		Remaining CP: 3
+	Player 2:
+		Available CP: 12
+		Used CP: 9
+		Remaining CP: 3
+
+END TURN 4 ECONOMIC PHASE
+
+BEGIN TURN 5 MOVEMENT PHASE
+
+	Player 1, Dreadnaught 1: (4, 2) -> (4, 3)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 2) -> (3, 1)
+	Player 2, Dreadnaught 2: (3, 2) -> (3, 1)
+	Player 2, Dreadnaught 3: (3, 2) -> (3, 1)
+
+
+END TURN 5 MOVEMENT PHASE
+
+Combat Coords: []
+
+BEGIN TURN 5 COMBAT PHASE
+
+
+END TURN 5 COMBAT PHASE
+
+BEGIN TURN 5 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 13
+		Used CP: 9
+		Remaining CP: 4
+	Player 2:
+		Available CP: 13
+		Used CP: 9
+		Remaining CP: 4
+
+END TURN 5 ECONOMIC PHASE
+
+BEGIN TURN 6 MOVEMENT PHASE
+
+	Player 1, Dreadnaught 1: (4, 3) -> (4, 4)
+	Player 1, Dreadnaught 2: (3, 0) -> (3, 0)
+	Player 1, Dreadnaught 3: (3, 0) -> (3, 0)
+
+	Player 2, Dreadnaught 1: (3, 1) -> (3, 0)
+	Player 2, Dreadnaught 2: (3, 1) -> (3, 0)
+	Player 2, Dreadnaught 3: (3, 1) -> (3, 0)
+
+
+END TURN 6 MOVEMENT PHASE
+
+Combat Coords: [(3, 0)]
+
+BEGIN TURN 6 COMBAT PHASE
+
+	Combat at: (3, 0)
+
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 1
+		Hit!
+
+		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 1
+
+		Attacker: Player 1 Dreadnaught 3
+		Defender: Player 2 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 1
+		Defender: Player 1 Dreadnaught 2
+		Hit!
+
+		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Dreadnaught 2
+
+		Attacker: Player 2 Dreadnaught 2
+		Defender: Player 1 Dreadnaught 3
+		Miss
+
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 3
+		Miss
+
+		Remaining Ships:
+		Player 1 Dreadnaught 1
+		Player 1 Dreadnaught 2
+		Player 1 Dreadnaught 3
+
+		Player 2 Dreadnaught 1
+		Player 2 Dreadnaught 2
+		Player 2 Dreadnaught 3
+
+
+END TURN 6 COMBAT PHASE
+
+BEGIN TURN 6 ECONOMIC PHASE
+
+	Player 1:
+		Available CP: 14
+		Used CP: 9
+		Remaining CP: 5
+	Player 2:
+		Available CP: 14
+		Used CP: 9
+		Remaining CP: 5
+
+END TURN 6 ECONOMIC PHASE
+
+Winner: Player 2

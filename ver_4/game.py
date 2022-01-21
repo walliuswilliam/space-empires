@@ -1,7 +1,7 @@
 import sys, random as rand, math
 
-sys.path.append('ver_3/objects')
-sys.path.append('ver_3/logs')
+sys.path.append('ver_4/objects')
+sys.path.append('ver_4/logs')
 from ships import *
 from player import *
 from logger import *
@@ -14,9 +14,9 @@ class Game:
     self.players = players
     self.set_player_nums()
     if log_name is None:
-      self.log = Logger('ver_3/logs/log.txt')
+      self.log = Logger('ver_4/logs/log.txt')
     else:
-      self.log = Logger('ver_3/logs/{}.txt'.format(log_name))
+      self.log = Logger('ver_4/logs/{}.txt'.format(log_name))
     self.log.clear_log()
 
     rand.seed(random_seed)
@@ -28,12 +28,13 @@ class Game:
     mid_y = board_y // 2
 
     self.board = {}
-    self.initialize_board()
     
     self.board_size = board_size
     self.turn = 1
     self.winner = None
     self.combat_coords = []
+
+    self.initialize_board()
 
     
   def set_player_nums(self):
@@ -50,10 +51,12 @@ class Game:
       self.add_to_board(hc)
 
       bought_ships = player.strategy.buy_ships(player.cp)
-      if self.get_cp_of_dict(bought_ships) > player.cp:
+      cp_used = self.get_cp_of_dict(bought_ships)
+      if cp_used > player.cp:
         self.log.write('Player {} used too much CP, no ships bought!\n'.format(player.player_num))
         continue
-
+      
+      player.cp -= cp_used
       for key in bought_ships:
         for num_ships in range(bought_ships[key]):
           ship = ship_objects[key](i+1, hc.coords, num_ships+1)
@@ -62,10 +65,7 @@ class Game:
 
   def check_if_coords_are_in_bounds(self, coords):
     x, y = coords
-    if 0 <= x and x <= board_x-1:
-      if 0 <= y and y <= board_y-1:
-        return True
-    return False
+    return 0 <= x <= board_x-1 and 0 <= y <= board_y-1
 
   def check_if_translation_is_in_bounds(self, coords, translation):
     return self.check_if_coords_are_in_bounds((coords[0]+translation[0], coords[1]+translation[1]))
@@ -140,6 +140,30 @@ class Game:
           self.log.write(f'\t\tPlayer {player.player_num} {ship.name} {ship.ship_num}\n')
         self.log.write('\n')
     self.log.end_phase(self.turn, 'COMBAT')
+  
+  def economic_phase(self):
+    self.log.begin_phase(self.turn, 'ECONOMIC')
+    for player in self.players:
+      self.log.write(f'\tPlayer {player.player_num}:\n')
+      player.cp += 10
+      self.log.write(f'\t\tAvailable CP: {player.cp}')
+      sorted_ships = player.ships.copy()
+      sorted_ships.sort(reverse=True, key=lambda x: x.maint_cost)
+      used_cp = 0
+      for ship in sorted_ships:
+        if player.cp < ship.maint_cost:
+          self.log.write(f'\n\t\tNot Enough CP! Removing {ship.name} {ship.ship_num}')
+          self.dead_ship(ship)
+        else:
+          player.cp -= ship.maint_cost
+          used_cp += ship.maint_cost
+      self.log.write(f'\n\t\tUsed CP: {used_cp}\n\t\tRemaining CP: {player.cp}\n')
+
+      player.strategy.buy_ships()
+
+    
+    self.log.end_phase(self.turn, 'ECONOMIC')
+         
 
   def check_winner(self):
     for player in self.players:
@@ -155,6 +179,7 @@ class Game:
         self.print_board()
       self.movement_phase()
       self.combat_phase()
+      self.economic_phase()
       self.check_winner()
       self.turn += 1
       if debug:
@@ -267,3 +292,5 @@ class Game:
       strat_board[key] = [obj.__dict__ for obj in self.board[key]]
     for player in self.players:
       player.strategy.simple_board = strat_board
+      player.strategy.turn = self.turn
+    
