@@ -1,28 +1,20 @@
 Begin Game
 Player 1 Strategy: Custom
-Player 2 Strategy: Custom
+Player 2 Strategy: CaydenCompStrat
 
 BEGIN TURN 1 MOVEMENT PHASE
 
 	Player 1, Cruiser 1: (3, 0) -> (3, 1)
-	Player 1, Cruiser 2: (3, 0) -> (3, 1)
-	Player 1, Cruiser 3: (3, 0) -> (3, 1)
-	Player 1, Cruiser 4: (3, 0) -> (3, 1)
-	Player 1, Cruiser 5: (3, 0) -> (3, 1)
 	Player 1, Dreadnaught 1: (3, 0) -> (3, 1)
 	Player 1, Dreadnaught 2: (3, 0) -> (3, 1)
 	Player 1, Dreadnaught 3: (3, 0) -> (3, 1)
 	Player 1, Dreadnaught 4: (3, 0) -> (3, 1)
 
-	Player 2, Cruiser 1: (3, 6) -> (3, 5)
-	Player 2, Cruiser 2: (3, 6) -> (3, 5)
-	Player 2, Cruiser 3: (3, 6) -> (3, 5)
-	Player 2, Cruiser 4: (3, 6) -> (3, 5)
-	Player 2, Cruiser 5: (3, 6) -> (3, 5)
 	Player 2, Dreadnaught 1: (3, 6) -> (3, 5)
 	Player 2, Dreadnaught 2: (3, 6) -> (3, 5)
 	Player 2, Dreadnaught 3: (3, 6) -> (3, 5)
 	Player 2, Dreadnaught 4: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 5: (3, 6) -> (3, 5)
 
 
 END TURN 1 MOVEMENT PHASE
@@ -37,41 +29,30 @@ END TURN 1 COMBAT PHASE
 BEGIN TURN 1 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 54
-		Used CP: 22
-		Remaining CP: 32
+		Available CP: 52
+		Used CP: 14
+		Remaining CP: 38
+Player 1 used too much CP, no ships bought!
 	Player 2:
-		Available CP: 54
-		Used CP: 22
-		Remaining CP: 32
+		Available CP: 40
+		Used CP: 15
+		Remaining CP: 25
 
 END TURN 1 ECONOMIC PHASE
 
 BEGIN TURN 2 MOVEMENT PHASE
 
 	Player 1, Cruiser 1: (3, 1) -> (3, 2)
-	Player 1, Cruiser 2: (3, 1) -> (3, 2)
-	Player 1, Cruiser 3: (3, 1) -> (3, 2)
-	Player 1, Cruiser 4: (3, 1) -> (3, 2)
-	Player 1, Cruiser 5: (3, 1) -> (3, 2)
 	Player 1, Dreadnaught 1: (3, 1) -> (3, 2)
 	Player 1, Dreadnaught 2: (3, 1) -> (3, 2)
 	Player 1, Dreadnaught 3: (3, 1) -> (3, 2)
 	Player 1, Dreadnaught 4: (3, 1) -> (3, 2)
-	Player 1, Cruiser 6: (3, 0) -> (3, 1)
-	Player 1, Cruiser 7: (3, 0) -> (3, 1)
 
-	Player 2, Cruiser 1: (3, 5) -> (3, 4)
-	Player 2, Cruiser 2: (3, 5) -> (3, 4)
-	Player 2, Cruiser 3: (3, 5) -> (3, 4)
-	Player 2, Cruiser 4: (3, 5) -> (3, 4)
-	Player 2, Cruiser 5: (3, 5) -> (3, 4)
 	Player 2, Dreadnaught 1: (3, 5) -> (3, 4)
 	Player 2, Dreadnaught 2: (3, 5) -> (3, 4)
 	Player 2, Dreadnaught 3: (3, 5) -> (3, 4)
 	Player 2, Dreadnaught 4: (3, 5) -> (3, 4)
-	Player 2, Cruiser 6: (3, 6) -> (3, 5)
-	Player 2, Cruiser 7: (3, 6) -> (3, 5)
+	Player 2, Dreadnaught 5: (3, 5) -> (3, 4)
 
 
 END TURN 2 MOVEMENT PHASE
@@ -86,41 +67,30 @@ END TURN 2 COMBAT PHASE
 BEGIN TURN 2 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 18
-		Not Enough CP! Removing Cruiser 4
-		Not Enough CP! Removing Cruiser 5
-		Not Enough CP! Removing Cruiser 6
-		Not Enough CP! Removing Cruiser 7
-		Used CP: 18
-		Remaining CP: 0
+		Available CP: 48
+		Used CP: 14
+		Remaining CP: 34
 	Player 2:
-		Available CP: 18
-		Not Enough CP! Removing Cruiser 4
-		Not Enough CP! Removing Cruiser 5
-		Not Enough CP! Removing Cruiser 6
-		Not Enough CP! Removing Cruiser 7
-		Used CP: 18
-		Remaining CP: 0
+		Available CP: 35
+		Used CP: 15
+		Remaining CP: 20
 
 END TURN 2 ECONOMIC PHASE
 
 BEGIN TURN 3 MOVEMENT PHASE
 
 	Player 1, Cruiser 1: (3, 2) -> (3, 3)
-	Player 1, Cruiser 2: (3, 2) -> (3, 3)
-	Player 1, Cruiser 3: (3, 2) -> (3, 3)
 	Player 1, Dreadnaught 1: (3, 2) -> (3, 3)
 	Player 1, Dreadnaught 2: (3, 2) -> (3, 3)
 	Player 1, Dreadnaught 3: (3, 2) -> (3, 3)
 	Player 1, Dreadnaught 4: (3, 2) -> (3, 3)
+	Player 1, Dreadnaught 5: (3, 0) -> (3, 1)
 
-	Player 2, Cruiser 1: (3, 4) -> (3, 3)
-	Player 2, Cruiser 2: (3, 4) -> (3, 3)
-	Player 2, Cruiser 3: (3, 4) -> (3, 3)
 	Player 2, Dreadnaught 1: (3, 4) -> (3, 3)
 	Player 2, Dreadnaught 2: (3, 4) -> (3, 3)
 	Player 2, Dreadnaught 3: (3, 4) -> (3, 3)
 	Player 2, Dreadnaught 4: (3, 4) -> (3, 3)
+	Player 2, Dreadnaught 5: (3, 4) -> (3, 3)
 
 
 END TURN 3 MOVEMENT PHASE
@@ -132,34 +102,28 @@ BEGIN TURN 3 COMBAT PHASE
 	Combat at: (3, 3)
 
 		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 3
 		Miss
 
 		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 3
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 3
+		Defender: Player 2 Dreadnaught 5
+		Miss
 
 		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 3
-		Hit!
-
-		Player 1 Dreadnaught 3 dealt 1 dmg to Player 2 Dreadnaught 3
+		Defender: Player 2 Dreadnaught 1
+		Miss
 
 		Attacker: Player 1 Dreadnaught 4
-		Defender: Player 2 Dreadnaught 4
+		Defender: Player 2 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 4
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Cruiser 3
-		Hit!
-
-		Player 2 Dreadnaught 2 dealt 1 dmg to Player 1 Cruiser 3
+		Defender: Player 1 Dreadnaught 1
+		Miss
 
 		Attacker: Player 2 Dreadnaught 3
 		Defender: Player 1 Dreadnaught 1
@@ -169,70 +133,45 @@ BEGIN TURN 3 COMBAT PHASE
 		Defender: Player 1 Dreadnaught 1
 		Miss
 
+		Attacker: Player 2 Dreadnaught 5
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
 		Attacker: Player 1 Cruiser 1
-		Defender: Player 2 Dreadnaught 4
+		Defender: Player 2 Dreadnaught 3
 		Miss
-
-		Attacker: Player 1 Cruiser 2
-		Defender: Player 2 Cruiser 3
-		Hit!
-
-		Player 1 Cruiser 2 dealt 1 dmg to Player 2 Cruiser 3
-		Player 2 Cruiser 3 was destroyed
-
-		Attacker: Player 1 Cruiser 3
-		Defender: Player 2 Cruiser 2
-		Miss
-
-		Attacker: Player 2 Cruiser 1
-		Defender: Player 1 Dreadnaught 3
-		Miss
-
-		Attacker: Player 2 Cruiser 2
-		Defender: Player 1 Cruiser 1
-		Hit!
-
-		Player 2 Cruiser 2 dealt 1 dmg to Player 1 Cruiser 1
 
 		Remaining Ships:
 		Player 1 Cruiser 1
-		Player 1 Cruiser 2
-		Player 1 Cruiser 3
 		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
 		Player 1 Dreadnaught 4
-		Player 2 Cruiser 1
-		Player 2 Cruiser 2
+		Player 1 Dreadnaught 5
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
 		Player 2 Dreadnaught 4
+		Player 2 Dreadnaught 5
 
 END TURN 3 COMBAT PHASE
 
 BEGIN TURN 3 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 10
-		Not Enough CP! Removing Dreadnaught 4
-		Not Enough CP! Removing Cruiser 1
-		Not Enough CP! Removing Cruiser 2
-		Not Enough CP! Removing Cruiser 3
-		Used CP: 9
-		Remaining CP: 1
+		Available CP: 20
+		Used CP: 17
+		Remaining CP: 3
 	Player 2:
-		Available CP: 10
-		Not Enough CP! Removing Dreadnaught 4
-		Not Enough CP! Removing Cruiser 1
-		Not Enough CP! Removing Cruiser 2
-		Used CP: 9
-		Remaining CP: 1
+		Available CP: 30
+		Used CP: 15
+		Remaining CP: 15
 
 END TURN 3 ECONOMIC PHASE
 
 BEGIN TURN 4 MOVEMENT PHASE
 
+	Player 1, Dreadnaught 5: (3, 1) -> (3, 2)
 
 
 
@@ -245,55 +184,76 @@ BEGIN TURN 4 COMBAT PHASE
 	Combat at: (3, 3)
 
 		Attacker: Player 1 Dreadnaught 1
+		Defender: Player 2 Dreadnaught 5
+		Miss
+
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 2
+		Miss
+
+		Attacker: Player 1 Dreadnaught 3
+		Defender: Player 2 Dreadnaught 2
+		Miss
+
+		Attacker: Player 1 Dreadnaught 4
 		Defender: Player 2 Dreadnaught 2
 		Hit!
 
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 2
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 1
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 1
-
-		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 3
-		Miss
+		Player 1 Dreadnaught 4 dealt 1 dmg to Player 2 Dreadnaught 2
 
 		Attacker: Player 2 Dreadnaught 1
 		Defender: Player 1 Dreadnaught 1
-		Miss
+		Hit!
+
+		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Dreadnaught 1
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 2
-		Hit!
+		Defender: Player 1 Dreadnaught 1
+		Miss
 
-		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Dreadnaught 2
+		Attacker: Player 2 Dreadnaught 4
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 5
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 1 Cruiser 1
+		Defender: Player 2 Dreadnaught 3
+		Miss
 
 		Remaining Ships:
+		Player 1 Cruiser 1
 		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
+		Player 1 Dreadnaught 4
+		Player 1 Dreadnaught 5
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
+		Player 2 Dreadnaught 4
+		Player 2 Dreadnaught 5
 
 END TURN 4 COMBAT PHASE
 
 BEGIN TURN 4 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 11
-		Used CP: 9
-		Remaining CP: 2
+		Available CP: 13
+		Not Enough CP! Removing Dreadnaught 5
+		Not Enough CP! Removing Cruiser 1
+		Used CP: 12
+		Remaining CP: 1
 	Player 2:
-		Available CP: 11
-		Used CP: 9
-		Remaining CP: 2
+		Available CP: 25
+		Used CP: 15
+		Remaining CP: 10
 
 END TURN 4 ECONOMIC PHASE
 
@@ -311,49 +271,71 @@ BEGIN TURN 5 COMBAT PHASE
 	Combat at: (3, 3)
 
 		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 3
-		Miss
+		Defender: Player 2 Dreadnaught 4
+		Hit!
+
+		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 4
 
 		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 5
 		Miss
 
 		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 3
-		Miss
+		Hit!
+
+		Player 1 Dreadnaught 3 dealt 1 dmg to Player 2 Dreadnaught 3
+
+		Attacker: Player 1 Dreadnaught 4
+		Defender: Player 2 Dreadnaught 1
+		Hit!
+
+		Player 1 Dreadnaught 4 dealt 1 dmg to Player 2 Dreadnaught 1
 
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 2
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 2
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 4
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 5
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Remaining Ships:
 		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
+		Player 1 Dreadnaught 4
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
+		Player 2 Dreadnaught 4
+		Player 2 Dreadnaught 5
 
 END TURN 5 COMBAT PHASE
 
 BEGIN TURN 5 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 12
+		Available CP: 11
+		Not Enough CP! Removing Dreadnaught 4
 		Used CP: 9
-		Remaining CP: 3
+		Remaining CP: 2
 	Player 2:
-		Available CP: 12
-		Used CP: 9
-		Remaining CP: 3
+		Available CP: 20
+		Used CP: 15
+		Remaining CP: 5
 
 END TURN 5 ECONOMIC PHASE
 
@@ -371,8 +353,10 @@ BEGIN TURN 6 COMBAT PHASE
 	Combat at: (3, 3)
 
 		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 1
-		Miss
+		Defender: Player 2 Dreadnaught 2
+		Hit!
+
+		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 2
 
 		Attacker: Player 1 Dreadnaught 2
 		Defender: Player 2 Dreadnaught 3
@@ -381,7 +365,7 @@ BEGIN TURN 6 COMBAT PHASE
 		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 3
 
 		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 1
+		Defender: Player 2 Dreadnaught 5
 		Miss
 
 		Attacker: Player 2 Dreadnaught 1
@@ -389,11 +373,21 @@ BEGIN TURN 6 COMBAT PHASE
 		Miss
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 3
-		Miss
+		Defender: Player 1 Dreadnaught 1
+		Hit!
+
+		Player 2 Dreadnaught 2 dealt 1 dmg to Player 1 Dreadnaught 1
 
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 2
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 4
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 5
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Remaining Ships:
@@ -403,19 +397,21 @@ BEGIN TURN 6 COMBAT PHASE
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
+		Player 2 Dreadnaught 4
+		Player 2 Dreadnaught 5
 
 END TURN 6 COMBAT PHASE
 
 BEGIN TURN 6 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 13
+		Available CP: 12
 		Used CP: 9
-		Remaining CP: 4
+		Remaining CP: 3
 	Player 2:
-		Available CP: 13
-		Used CP: 9
-		Remaining CP: 4
+		Available CP: 15
+		Used CP: 15
+		Remaining CP: 0
 
 END TURN 6 ECONOMIC PHASE
 
@@ -433,51 +429,65 @@ BEGIN TURN 7 COMBAT PHASE
 	Combat at: (3, 3)
 
 		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 3
-		Miss
+		Defender: Player 2 Dreadnaught 1
+		Hit!
+
+		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 1
 
 		Attacker: Player 1 Dreadnaught 2
 		Defender: Player 2 Dreadnaught 2
 		Miss
 
 		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 3
+		Defender: Player 2 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 3
-		Hit!
-
-		Player 2 Dreadnaught 2 dealt 1 dmg to Player 1 Dreadnaught 3
-
-		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 2
+		Defender: Player 1 Dreadnaught 1
 		Miss
 
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 4
+		Defender: Player 1 Dreadnaught 1
+		Miss
+
+		Attacker: Player 2 Dreadnaught 5
+		Defender: Player 1 Dreadnaught 1
+		Hit!
+
+		Player 2 Dreadnaught 5 dealt 1 dmg to Player 1 Dreadnaught 1
+		Player 1 Dreadnaught 1 was destroyed
+
 		Remaining Ships:
-		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
+		Player 2 Dreadnaught 4
+		Player 2 Dreadnaught 5
 
 END TURN 7 COMBAT PHASE
 
 BEGIN TURN 7 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 14
-		Used CP: 9
-		Remaining CP: 5
+		Available CP: 13
+		Used CP: 6
+		Remaining CP: 7
 	Player 2:
-		Available CP: 14
+		Available CP: 10
+		Not Enough CP! Removing Dreadnaught 4
+		Not Enough CP! Removing Dreadnaught 5
 		Used CP: 9
-		Remaining CP: 5
+		Remaining CP: 1
 
 END TURN 7 ECONOMIC PHASE
 
@@ -494,34 +504,27 @@ BEGIN TURN 8 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 1
+		Miss
+
+		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 3
 		Miss
 
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 2
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 2
-
-		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 2
-		Miss
-
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 2
 		Miss
 
 		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 1
+		Defender: Player 1 Dreadnaught 2
 		Miss
 
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 2
 		Miss
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
 		Player 2 Dreadnaught 1
@@ -533,13 +536,13 @@ END TURN 8 COMBAT PHASE
 BEGIN TURN 8 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 15
-		Used CP: 9
-		Remaining CP: 6
+		Available CP: 17
+		Used CP: 6
+		Remaining CP: 11
 	Player 2:
-		Available CP: 15
+		Available CP: 11
 		Used CP: 9
-		Remaining CP: 6
+		Remaining CP: 2
 
 END TURN 8 ECONOMIC PHASE
 
@@ -556,42 +559,31 @@ BEGIN TURN 9 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 1
+		Attacker: Player 1 Dreadnaught 2
+		Defender: Player 2 Dreadnaught 2
 		Hit!
 
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 1
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 3
-		Miss
+		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 2
+		Player 2 Dreadnaught 2 was destroyed
 
 		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 2
 		Miss
 
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 3
-		Hit!
-
-		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Dreadnaught 3
-
-		Attacker: Player 2 Dreadnaught 2
-		Defender: Player 1 Dreadnaught 2
-		Hit!
-
-		Player 2 Dreadnaught 2 dealt 1 dmg to Player 1 Dreadnaught 2
-
-		Attacker: Player 2 Dreadnaught 3
 		Defender: Player 1 Dreadnaught 2
 		Miss
 
+		Attacker: Player 2 Dreadnaught 3
+		Defender: Player 1 Dreadnaught 2
+		Hit!
+
+		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Dreadnaught 2
+
 		Remaining Ships:
-		Player 1 Dreadnaught 1
 		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
 		Player 2 Dreadnaught 1
-		Player 2 Dreadnaught 2
 		Player 2 Dreadnaught 3
 
 END TURN 9 COMBAT PHASE
@@ -599,13 +591,13 @@ END TURN 9 COMBAT PHASE
 BEGIN TURN 9 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 16
-		Used CP: 9
-		Remaining CP: 7
+		Available CP: 21
+		Used CP: 6
+		Remaining CP: 15
 	Player 2:
-		Available CP: 16
-		Used CP: 9
-		Remaining CP: 7
+		Available CP: 12
+		Used CP: 6
+		Remaining CP: 6
 
 END TURN 9 ECONOMIC PHASE
 
@@ -622,34 +614,28 @@ BEGIN TURN 10 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 3
-		Miss
-
 		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 2
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 2
-		Player 2 Dreadnaught 2 was destroyed
+		Defender: Player 2 Dreadnaught 1
+		Miss
 
 		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 1
 		Miss
 
 		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 1
+		Defender: Player 1 Dreadnaught 2
 		Hit!
 
-		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Dreadnaught 1
+		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Dreadnaught 2
 
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 1
-		Miss
+		Defender: Player 1 Dreadnaught 2
+		Hit!
+
+		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Dreadnaught 2
+		Player 1 Dreadnaught 2 was destroyed
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
 		Player 1 Dreadnaught 3
 		Player 2 Dreadnaught 1
 		Player 2 Dreadnaught 3
@@ -659,13 +645,13 @@ END TURN 10 COMBAT PHASE
 BEGIN TURN 10 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 17
-		Used CP: 9
-		Remaining CP: 8
+		Available CP: 25
+		Used CP: 3
+		Remaining CP: 22
 	Player 2:
-		Available CP: 17
+		Available CP: 16
 		Used CP: 6
-		Remaining CP: 11
+		Remaining CP: 10
 
 END TURN 10 ECONOMIC PHASE
 
@@ -682,33 +668,21 @@ BEGIN TURN 11 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 1
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 3
-		Miss
-
 		Attacker: Player 1 Dreadnaught 3
-		Defender: Player 2 Dreadnaught 3
-		Miss
+		Defender: Player 2 Dreadnaught 1
+		Hit!
 
-		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 2
-		Miss
+		Player 1 Dreadnaught 3 dealt 1 dmg to Player 2 Dreadnaught 1
+		Player 2 Dreadnaught 1 was destroyed
 
 		Attacker: Player 2 Dreadnaught 3
 		Defender: Player 1 Dreadnaught 3
 		Hit!
 
 		Player 2 Dreadnaught 3 dealt 1 dmg to Player 1 Dreadnaught 3
-		Player 1 Dreadnaught 3 was destroyed
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 2 Dreadnaught 1
+		Player 1 Dreadnaught 3
 		Player 2 Dreadnaught 3
 
 END TURN 11 COMBAT PHASE
@@ -716,21 +690,20 @@ END TURN 11 COMBAT PHASE
 BEGIN TURN 11 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 18
-		Used CP: 6
-		Remaining CP: 12
+		Available CP: 32
+		Used CP: 3
+		Remaining CP: 29
 	Player 2:
-		Available CP: 21
-		Used CP: 6
-		Remaining CP: 15
+		Available CP: 20
+		Used CP: 3
+		Remaining CP: 17
 
 END TURN 11 ECONOMIC PHASE
 
 BEGIN TURN 12 MOVEMENT PHASE
 
-	Player 1, Cruiser 8: (3, 0) -> (3, 1)
+	Player 1, Dreadnaught 6: (3, 0) -> (3, 1)
 
-	Player 2, Cruiser 8: (3, 6) -> (3, 5)
 
 
 END TURN 12 MOVEMENT PHASE
@@ -741,50 +714,38 @@ BEGIN TURN 12 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
+		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 3
 		Miss
 
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 1
-		Miss
-
-		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
 		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 1
+		Defender: Player 1 Dreadnaught 3
 		Miss
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 8
-		Player 2 Dreadnaught 1
+		Player 1 Dreadnaught 3
+		Player 1 Dreadnaught 6
 		Player 2 Dreadnaught 3
-		Player 2 Cruiser 8
 
 END TURN 12 COMBAT PHASE
 
 BEGIN TURN 12 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 10
-		Used CP: 8
-		Remaining CP: 2
+		Available CP: 15
+		Used CP: 6
+		Remaining CP: 9
 	Player 2:
-		Available CP: 13
-		Used CP: 8
-		Remaining CP: 5
+		Available CP: 27
+		Used CP: 3
+		Remaining CP: 24
 
 END TURN 12 ECONOMIC PHASE
 
 BEGIN TURN 13 MOVEMENT PHASE
 
-	Player 1, Cruiser 8: (3, 1) -> (3, 2)
+	Player 1, Dreadnaught 6: (3, 1) -> (3, 2)
 
-	Player 2, Cruiser 8: (3, 5) -> (3, 4)
 
 
 END TURN 13 MOVEMENT PHASE
@@ -795,1150 +756,133 @@ BEGIN TURN 13 COMBAT PHASE
 
 	Combat at: (3, 3)
 
-		Attacker: Player 1 Dreadnaught 1
+		Attacker: Player 1 Dreadnaught 3
 		Defender: Player 2 Dreadnaught 3
-		Miss
+		Hit!
 
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 1
-		Miss
-
-		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Attacker: Player 2 Dreadnaught 3
-		Defender: Player 1 Dreadnaught 2
-		Miss
+		Player 1 Dreadnaught 3 dealt 1 dmg to Player 2 Dreadnaught 3
+		Player 2 Dreadnaught 3 was destroyed
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 8
-		Player 2 Dreadnaught 1
-		Player 2 Dreadnaught 3
-		Player 2 Cruiser 8
+		Player 1 Dreadnaught 3
+		Player 1 Dreadnaught 6
 
 END TURN 13 COMBAT PHASE
 
 BEGIN TURN 13 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 12
-		Used CP: 8
-		Remaining CP: 4
+		Available CP: 19
+		Used CP: 6
+		Remaining CP: 13
 	Player 2:
-		Available CP: 15
-		Used CP: 8
-		Remaining CP: 7
+		Available CP: 34
+		Used CP: 0
+		Remaining CP: 34
 
 END TURN 13 ECONOMIC PHASE
 
 BEGIN TURN 14 MOVEMENT PHASE
 
-	Player 1, Cruiser 8: (3, 2) -> (3, 3)
+	Player 1, Dreadnaught 3: (3, 3) -> (3, 4)
+	Player 1, Dreadnaught 6: (3, 2) -> (3, 3)
 
-	Player 2, Cruiser 8: (3, 4) -> (3, 3)
 
 
 END TURN 14 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: []
 
 BEGIN TURN 14 COMBAT PHASE
 
-	Combat at: (3, 3)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 3
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 3
-		Player 2 Dreadnaught 3 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 8
-		Miss
-
-		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Cruiser 8
-		Miss
-
-		Attacker: Player 1 Cruiser 8
-		Defender: Player 2 Dreadnaught 3
-		Miss
-
-		Attacker: Player 2 Cruiser 8
-		Defender: Player 1 Cruiser 8
-		Hit!
-
-		Player 2 Cruiser 8 dealt 1 dmg to Player 1 Cruiser 8
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 8
-		Player 2 Dreadnaught 1
-		Player 2 Cruiser 8
 
 END TURN 14 COMBAT PHASE
 
 BEGIN TURN 14 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 14
-		Used CP: 8
-		Remaining CP: 6
+		Available CP: 23
+		Used CP: 6
+		Remaining CP: 17
 	Player 2:
-		Available CP: 17
-		Used CP: 5
-		Remaining CP: 12
+		Available CP: 44
+		Used CP: 0
+		Remaining CP: 44
 
 END TURN 14 ECONOMIC PHASE
 
 BEGIN TURN 15 MOVEMENT PHASE
 
+	Player 1, Dreadnaught 3: (3, 4) -> (3, 5)
+	Player 1, Dreadnaught 6: (3, 3) -> (3, 4)
 
-	Player 2, Cruiser 9: (3, 6) -> (3, 5)
 
 
 END TURN 15 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: []
 
 BEGIN TURN 15 COMBAT PHASE
 
-	Combat at: (3, 3)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Dreadnaught 1
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Dreadnaught 1
-		Player 2 Dreadnaught 1 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Dreadnaught 1
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Dreadnaught 1
-
-		Attacker: Player 2 Dreadnaught 1
-		Defender: Player 1 Cruiser 8
-		Hit!
-
-		Player 2 Dreadnaught 1 dealt 1 dmg to Player 1 Cruiser 8
-		Player 1 Cruiser 8 was destroyed
-
-		Attacker: Player 2 Cruiser 8
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 2 Cruiser 8
-		Player 2 Cruiser 9
 
 END TURN 15 COMBAT PHASE
 
 BEGIN TURN 15 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 16
+		Available CP: 27
 		Used CP: 6
-		Remaining CP: 10
+		Remaining CP: 21
 	Player 2:
-		Available CP: 10
-		Used CP: 4
-		Remaining CP: 6
+		Available CP: 54
+		Used CP: 0
+		Remaining CP: 54
 
 END TURN 15 ECONOMIC PHASE
 
 BEGIN TURN 16 MOVEMENT PHASE
 
+	Player 1, Dreadnaught 3: (3, 5) -> (3, 6)
+	Player 1, Dreadnaught 6: (3, 4) -> (3, 5)
 
-	Player 2, Cruiser 9: (3, 5) -> (3, 4)
 
 
 END TURN 16 MOVEMENT PHASE
 
-Combat Coords: [(3, 3)]
+Combat Coords: [(3, 6)]
 
 BEGIN TURN 16 COMBAT PHASE
 
-	Combat at: (3, 3)
+	Combat at: (3, 6)
 
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 8
+		Attacker: Player 2 Dreadnaught 6
+		Defender: Player 1 Dreadnaught 3
 		Hit!
 
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 8
+		Player 2 Dreadnaught 6 dealt 1 dmg to Player 1 Dreadnaught 3
 
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 8
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 8
-		Player 2 Cruiser 8 was destroyed
+		Attacker: Player 1 Dreadnaught 3
+		Defender: Player 2 Dreadnaught 6
+		Miss
 
 		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 2 Cruiser 9
+		Player 1 Dreadnaught 3
+		Player 1 Dreadnaught 6
+		Player 2 Dreadnaught 6
 
 END TURN 16 COMBAT PHASE
 
 BEGIN TURN 16 ECONOMIC PHASE
 
 	Player 1:
-		Available CP: 20
+		Available CP: 31
 		Used CP: 6
-		Remaining CP: 14
+		Remaining CP: 25
 	Player 2:
-		Available CP: 16
-		Used CP: 2
-		Remaining CP: 14
+		Available CP: 40
+		Used CP: 3
+		Remaining CP: 37
 
 END TURN 16 ECONOMIC PHASE
-
-BEGIN TURN 17 MOVEMENT PHASE
-
-	Player 1, Dreadnaught 1: (3, 3) -> (3, 4)
-	Player 1, Dreadnaught 2: (3, 3) -> (3, 4)
-	Player 1, Cruiser 9: (3, 0) -> (3, 1)
-
-	Player 2, Cruiser 10: (3, 6) -> (3, 5)
-
-
-END TURN 17 MOVEMENT PHASE
-
-Combat Coords: [(3, 4)]
-
-BEGIN TURN 17 COMBAT PHASE
-
-	Combat at: (3, 4)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 9
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 9
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 9
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 9
-		Player 2 Cruiser 9 was destroyed
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 2 Cruiser 10
-
-END TURN 17 COMBAT PHASE
-
-BEGIN TURN 17 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 12
-		Used CP: 8
-		Remaining CP: 4
-	Player 2:
-		Available CP: 12
-		Used CP: 2
-		Remaining CP: 10
-
-END TURN 17 ECONOMIC PHASE
-
-BEGIN TURN 18 MOVEMENT PHASE
-
-	Player 1, Dreadnaught 1: (3, 4) -> (3, 5)
-	Player 1, Dreadnaught 2: (3, 4) -> (3, 5)
-	Player 1, Cruiser 9: (3, 1) -> (3, 2)
-
-
-
-END TURN 18 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 18 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 10
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 10
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 10
-
-		Attacker: Player 2 Cruiser 10
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 2 Cruiser 10
-
-END TURN 18 COMBAT PHASE
-
-BEGIN TURN 18 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 14
-		Used CP: 8
-		Remaining CP: 6
-	Player 2:
-		Available CP: 20
-		Used CP: 2
-		Remaining CP: 18
-
-END TURN 18 ECONOMIC PHASE
-
-BEGIN TURN 19 MOVEMENT PHASE
-
-	Player 1, Cruiser 9: (3, 2) -> (3, 3)
-
-	Player 2, Cruiser 11: (3, 6) -> (3, 5)
-
-
-END TURN 19 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 19 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 11
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 10
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 10
-		Player 2 Cruiser 10 was destroyed
-
-		Attacker: Player 2 Cruiser 11
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 2 Cruiser 11
-
-END TURN 19 COMBAT PHASE
-
-BEGIN TURN 19 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 16
-		Used CP: 8
-		Remaining CP: 8
-	Player 2:
-		Available CP: 16
-		Used CP: 2
-		Remaining CP: 14
-
-END TURN 19 ECONOMIC PHASE
-
-BEGIN TURN 20 MOVEMENT PHASE
-
-	Player 1, Cruiser 9: (3, 3) -> (3, 4)
-
-	Player 2, Cruiser 12: (3, 6) -> (3, 5)
-
-
-END TURN 20 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 20 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 12
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 12
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 12
-
-		Attacker: Player 2 Cruiser 11
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Attacker: Player 2 Cruiser 12
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 2 Cruiser 11
-		Player 2 Cruiser 12
-
-END TURN 20 COMBAT PHASE
-
-BEGIN TURN 20 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 18
-		Used CP: 8
-		Remaining CP: 10
-	Player 2:
-		Available CP: 12
-		Used CP: 4
-		Remaining CP: 8
-
-END TURN 20 ECONOMIC PHASE
-
-BEGIN TURN 21 MOVEMENT PHASE
-
-	Player 1, Cruiser 9: (3, 4) -> (3, 5)
-
-
-
-END TURN 21 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 21 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 12
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 12
-		Player 2 Cruiser 12 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 12
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 12
-
-		Attacker: Player 2 Cruiser 11
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Attacker: Player 2 Cruiser 12
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 12
-		Hit!
-
-		Player 1 Cruiser 9 dealt 1 dmg to Player 2 Cruiser 12
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 2 Cruiser 11
-
-END TURN 21 COMBAT PHASE
-
-BEGIN TURN 21 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 20
-		Used CP: 8
-		Remaining CP: 12
-	Player 2:
-		Available CP: 18
-		Used CP: 2
-		Remaining CP: 16
-
-END TURN 21 ECONOMIC PHASE
-
-BEGIN TURN 22 MOVEMENT PHASE
-
-	Player 1, Cruiser 10: (3, 0) -> (3, 1)
-
-	Player 2, Cruiser 13: (3, 6) -> (3, 5)
-
-
-END TURN 22 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 22 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 11
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 11
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 13
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 13
-
-		Attacker: Player 2 Cruiser 11
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 13
-		Miss
-
-		Attacker: Player 2 Cruiser 13
-		Defender: Player 1 Cruiser 9
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 11
-		Player 2 Cruiser 13
-
-END TURN 22 COMBAT PHASE
-
-BEGIN TURN 22 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 14
-		Used CP: 4
-		Remaining CP: 10
-
-END TURN 22 ECONOMIC PHASE
-
-BEGIN TURN 23 MOVEMENT PHASE
-
-	Player 1, Cruiser 10: (3, 1) -> (3, 2)
-
-
-
-END TURN 23 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 23 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 11
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 13
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 13
-		Player 2 Cruiser 13 was destroyed
-
-		Attacker: Player 2 Cruiser 11
-		Defender: Player 1 Cruiser 9
-		Hit!
-
-		Player 2 Cruiser 11 dealt 1 dmg to Player 1 Cruiser 9
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 13
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 11
-
-END TURN 23 COMBAT PHASE
-
-BEGIN TURN 23 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 20
-		Used CP: 2
-		Remaining CP: 18
-
-END TURN 23 ECONOMIC PHASE
-
-BEGIN TURN 24 MOVEMENT PHASE
-
-	Player 1, Cruiser 10: (3, 2) -> (3, 3)
-
-	Player 2, Cruiser 14: (3, 6) -> (3, 5)
-
-
-END TURN 24 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 24 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 11
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 11
-		Player 2 Cruiser 11 was destroyed
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 11
-		Miss
-
-		Attacker: Player 2 Cruiser 14
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 14
-
-END TURN 24 COMBAT PHASE
-
-BEGIN TURN 24 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 16
-		Used CP: 2
-		Remaining CP: 14
-
-END TURN 24 ECONOMIC PHASE
-
-BEGIN TURN 25 MOVEMENT PHASE
-
-	Player 1, Cruiser 10: (3, 3) -> (3, 4)
-
-	Player 2, Cruiser 15: (3, 6) -> (3, 5)
-
-
-END TURN 25 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 25 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 14
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 14
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 15
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 15
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 2 Cruiser 14
-		Defender: Player 1 Cruiser 9
-		Miss
-
-		Attacker: Player 2 Cruiser 15
-		Defender: Player 1 Dreadnaught 1
-		Hit!
-
-		Player 2 Cruiser 15 dealt 1 dmg to Player 1 Dreadnaught 1
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 14
-		Player 2 Cruiser 15
-
-END TURN 25 COMBAT PHASE
-
-BEGIN TURN 25 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 12
-		Used CP: 4
-		Remaining CP: 8
-
-END TURN 25 ECONOMIC PHASE
-
-BEGIN TURN 26 MOVEMENT PHASE
-
-	Player 1, Cruiser 10: (3, 4) -> (3, 5)
-
-
-
-END TURN 26 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 26 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 15
-		Hit!
-
-		Player 1 Cruiser 9 dealt 1 dmg to Player 2 Cruiser 15
-		Player 2 Cruiser 15 was destroyed
-
-		Attacker: Player 2 Cruiser 14
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 14
-
-END TURN 26 COMBAT PHASE
-
-BEGIN TURN 26 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 18
-		Used CP: 2
-		Remaining CP: 16
-
-END TURN 26 ECONOMIC PHASE
-
-BEGIN TURN 27 MOVEMENT PHASE
-
-
-	Player 2, Cruiser 16: (3, 6) -> (3, 5)
-
-
-END TURN 27 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 27 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 14
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 14
-		Player 2 Cruiser 14 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 16
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 14
-		Miss
-
-		Attacker: Player 2 Cruiser 16
-		Defender: Player 1 Cruiser 9
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 16
-
-END TURN 27 COMBAT PHASE
-
-BEGIN TURN 27 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 14
-		Used CP: 2
-		Remaining CP: 12
-
-END TURN 27 ECONOMIC PHASE
-
-BEGIN TURN 28 MOVEMENT PHASE
-
-
-	Player 2, Cruiser 17: (3, 6) -> (3, 5)
-
-
-END TURN 28 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 28 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 17
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 17
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 17
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 17
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 16
-		Hit!
-
-		Player 1 Cruiser 10 dealt 1 dmg to Player 2 Cruiser 16
-
-		Attacker: Player 2 Cruiser 16
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Attacker: Player 2 Cruiser 17
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 16
-		Player 2 Cruiser 17
-
-END TURN 28 COMBAT PHASE
-
-BEGIN TURN 28 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 10
-		Used CP: 4
-		Remaining CP: 6
-
-END TURN 28 ECONOMIC PHASE
-
-BEGIN TURN 29 MOVEMENT PHASE
-
-
-
-
-END TURN 29 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 29 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 17
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 17
-		Player 2 Cruiser 17 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 17
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 17
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 17
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 17
-		Miss
-
-		Attacker: Player 2 Cruiser 16
-		Defender: Player 1 Cruiser 10
-		Miss
-
-		Attacker: Player 2 Cruiser 17
-		Defender: Player 1 Dreadnaught 2
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 16
-
-END TURN 29 COMBAT PHASE
-
-BEGIN TURN 29 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 16
-		Used CP: 2
-		Remaining CP: 14
-
-END TURN 29 ECONOMIC PHASE
-
-BEGIN TURN 30 MOVEMENT PHASE
-
-
-	Player 2, Cruiser 18: (3, 6) -> (3, 5)
-
-
-END TURN 30 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 30 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 16
-		Hit!
-
-		Player 1 Dreadnaught 1 dealt 1 dmg to Player 2 Cruiser 16
-		Player 2 Cruiser 16 was destroyed
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 16
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 16
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 16
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 16
-		Miss
-
-		Attacker: Player 2 Cruiser 16
-		Defender: Player 1 Cruiser 9
-		Miss
-
-		Attacker: Player 2 Cruiser 18
-		Defender: Player 1 Cruiser 9
-		Miss
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-		Player 2 Cruiser 18
-
-END TURN 30 COMBAT PHASE
-
-BEGIN TURN 30 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 12
-		Used CP: 2
-		Remaining CP: 10
-
-END TURN 30 ECONOMIC PHASE
-
-BEGIN TURN 31 MOVEMENT PHASE
-
-
-
-
-END TURN 31 MOVEMENT PHASE
-
-Combat Coords: [(3, 5)]
-
-BEGIN TURN 31 COMBAT PHASE
-
-	Combat at: (3, 5)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 18
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 18
-		Hit!
-
-		Player 1 Dreadnaught 2 dealt 1 dmg to Player 2 Cruiser 18
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 18
-		Miss
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 18
-		Hit!
-
-		Player 1 Cruiser 10 dealt 1 dmg to Player 2 Cruiser 18
-		Player 2 Cruiser 18 was destroyed
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-
-END TURN 31 COMBAT PHASE
-
-BEGIN TURN 31 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 20
-		Used CP: 0
-		Remaining CP: 20
-
-END TURN 31 ECONOMIC PHASE
-
-BEGIN TURN 32 MOVEMENT PHASE
-
-	Player 1, Dreadnaught 1: (3, 5) -> (3, 6)
-	Player 1, Dreadnaught 2: (3, 5) -> (3, 6)
-	Player 1, Cruiser 9: (3, 5) -> (3, 6)
-	Player 1, Cruiser 10: (3, 5) -> (3, 6)
-
-
-
-END TURN 32 MOVEMENT PHASE
-
-Combat Coords: [(3, 6)]
-
-BEGIN TURN 32 COMBAT PHASE
-
-	Combat at: (3, 6)
-
-		Attacker: Player 1 Dreadnaught 1
-		Defender: Player 2 Cruiser 19
-		Miss
-
-		Attacker: Player 1 Dreadnaught 2
-		Defender: Player 2 Cruiser 19
-		Miss
-
-		Attacker: Player 2 Cruiser 19
-		Defender: Player 1 Dreadnaught 1
-		Miss
-
-		Attacker: Player 1 Cruiser 9
-		Defender: Player 2 Cruiser 19
-		Hit!
-
-		Player 1 Cruiser 9 dealt 1 dmg to Player 2 Cruiser 19
-
-		Attacker: Player 1 Cruiser 10
-		Defender: Player 2 Cruiser 19
-		Hit!
-
-		Player 1 Cruiser 10 dealt 1 dmg to Player 2 Cruiser 19
-		Player 2 Cruiser 19 was destroyed
-
-		Remaining Ships:
-		Player 1 Dreadnaught 1
-		Player 1 Dreadnaught 2
-		Player 1 Cruiser 9
-		Player 1 Cruiser 10
-
-END TURN 32 COMBAT PHASE
-
-BEGIN TURN 32 ECONOMIC PHASE
-
-	Player 1:
-		Available CP: 10
-		Used CP: 10
-		Remaining CP: 0
-	Player 2:
-		Available CP: 18
-		Used CP: 0
-		Remaining CP: 18
-
-END TURN 32 ECONOMIC PHASE
 
 Winner: Player 1

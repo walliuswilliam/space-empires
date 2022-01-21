@@ -8,5 +8,5 @@ class Player:
     self.ships = []
     self.home_colony = None
     self.strategy = strat
-    self.cp = 200
+    self.cp = 150
     self.ship_counter = {ship_name:0 for ship_name in ship_objects.keys()}

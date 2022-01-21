@@ -57,15 +57,19 @@ class Custom:
 
     #Initial Purchase
     if self.turn == 0:
-      bought_ships = {'Scout': 0, 'BattleCruiser': 0, 'Battleship': 0, 'Cruiser': 5, 
+      bought_ships = {'Scout': 0, 'BattleCruiser': 0, 'Battleship': 0, 'Cruiser': 1, 
       'Destroyer': 0, 'Dreadnaught': 4}
+
+    elif self.turn == 1:
+      bought_ships = {'Scout': 0, 'BattleCruiser': 1, 'Battleship': 0, 'Cruiser': 1, 
+      'Destroyer': 0, 'Dreadnaught': 1}
 
     #Mid game purchases
     else:
       while self.get_cp_of_dict(bought_ships) < cp_budget:
-        bought_ships['Cruiser'] += 1
+        bought_ships['Dreadnaught'] += 1
       if self.get_cp_of_dict(bought_ships) > cp_budget:
-        bought_ships['Cruiser'] -= 1
+        bought_ships['Dreadnaught'] -= 1
     
     return bought_ships
     
