@@ -143,12 +143,13 @@ class Game:
         continue
       
       player.cp -= cp_used
-      for key in bought_ships:
-        for num_ships in range(bought_ships[key]):
-          ship = ship_objects[key](player.player_num, player.home_colony.coords, player.ship_counter[key]+1)
-          self.add_to_board(ship)
-          player.ships.append(ship)
-          player.ship_counter[ship.name] += 1
+      if bought_ships != None:
+        for key in bought_ships:
+          for num_ships in range(bought_ships[key]):
+            ship = ship_objects[key](player.player_num, player.home_colony.coords, player.ship_counter[key]+1)
+            self.add_to_board(ship)
+            player.ships.append(ship)
+            player.ship_counter[ship.name] += 1
 
     self.log.end_phase(self.turn, 'ECONOMIC')
   
@@ -246,6 +247,8 @@ class Game:
             return obj
 
   def get_cp_of_dict(self, ships_dict):
+    if ships_dict == None:
+      return 0
     total_cp = 0
     for key in ships_dict:
       for ship in all_ships:

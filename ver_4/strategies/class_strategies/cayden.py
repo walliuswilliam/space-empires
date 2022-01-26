@@ -4,7 +4,7 @@ import random
 class CaydenCompStrat():
     def __init__(self):
         self.simple_board = None
-        self.turn = None
+        self.turn = 0
 
     def best_option(self, options, coordinate):
         best_option = options[0]

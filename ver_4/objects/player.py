@@ -1,5 +1,5 @@
 import math, random, sys
-sys.path.append('ver_3')
+sys.path.append('ver_4')
 from ship_data import *
 
 class Player:

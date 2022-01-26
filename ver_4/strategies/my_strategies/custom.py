@@ -1,5 +1,5 @@
 import sys
-sys.path.append('ver_3')
+sys.path.append('ver_4')
 import math,random
 from ship_data import *
 
@@ -49,20 +49,17 @@ class Custom:
       return [ship_dict for ship_dict in combat_order if ship_dict['player_num'] != own_player_num and ship_dict['name'] == ship_type]
 
   def buy_ships(self, cp_budget):
-    bought_ships = {'Scout': 0, 'BattleCruiser': 0, 'Battleship': 0, 'Cruiser': 0, 
-      'Destroyer': 0, 'Dreadnaught': 0}
+    bought_ships = {'Dreadnaught': 0}
 
     if cp_budget < 12:
-      return bought_ships
+      return None
 
     #Initial Purchase
     if self.turn == 0:
-      bought_ships = {'Scout': 0, 'BattleCruiser': 0, 'Battleship': 0, 'Cruiser': 1, 
-      'Destroyer': 0, 'Dreadnaught': 4}
+      bought_ships = {'Cruiser': 1, 'Dreadnaught': 4}
 
     elif self.turn == 1:
-      bought_ships = {'Scout': 0, 'BattleCruiser': 1, 'Battleship': 0, 'Cruiser': 1, 
-      'Destroyer': 0, 'Dreadnaught': 1}
+      bought_ships = {'BattleCruiser': 1, 'Cruiser': 1, 'Dreadnaught': 1}
 
     #Mid game purchases
     else:

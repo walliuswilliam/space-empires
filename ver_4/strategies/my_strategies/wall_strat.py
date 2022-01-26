@@ -1,5 +1,5 @@
 import sys
-sys.path.append('ver_3')
+sys.path.append('ver_4')
 import math,random
 from ship_data import *
 

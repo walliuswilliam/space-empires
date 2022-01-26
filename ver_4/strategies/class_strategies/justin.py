@@ -7,10 +7,11 @@ class CompetitionStrat:
         self.simple_board = {}
         self.player_num = None
         self.col_coord = None
+        self.turn = 0
 
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
-    
+
     def min_distance_choice(self, choices, coord):
         best_choice = choices[0]
         min_distance = self.distance(best_choice, coord)
@@ -69,6 +70,11 @@ class CompetitionStrat:
             if self.enemy_in(new_coord) and self.num_total_ships(new_coord, 3-self.player_num) <= 3:
                 return new_coord
         return None
+    
+    def enemy_diagonal(self, coord):
+        options = [(1,1), (-1,1), (-1,-1), (1,-1)]
+        # continue this
+        return None
 
     def num_ships(self, coord, player_num, ship_type): # counts number of a certain type of ship belonging to corresponding player in a coord
         if coord not in list(self.simple_board.keys()):
@@ -122,7 +128,7 @@ class CompetitionStrat:
 
         move = self.min_distance_translation(choices, coords, target_coord)
         new_coord = self.coord_add(coords, move)
-        more_enemy_dreadnaughts = self.num_ships(new_coord,3-self.player_num,'Dreadnaught') >= 8
+        more_enemy_dreadnaughts = self.num_ships(new_coord,3-self.player_num,'Dreadnaught') >= 4
 
         if more_enemy_dreadnaughts and self.enemy_adjacent(coords, deleted_options=[move]):
             if self.get_flanker_coord(coords) != None:
@@ -211,6 +217,19 @@ class CompetitionStrat:
                 if item['obj_type']=='Colony' and item['is_home_colony']==True and item['player_num']==self.player_num:
                     self.col_coord = item['coords']
     
-    def buy_ships(self, cp_budget): # make an actual strategy
+    def get_maint_cost(self):
+        if self.player_num == None:
+            return None
+        maint_cost = 0
+        for key in self.simple_board:
+            for obj in self.simple_board[key]:
+                if obj['obj_type']=='Ship' and obj['player_num']:
+                    maint_cost += obj['maint_cost']
+        return maint_cost
+    
+    def buy_ships(self, cp_budget):
         self.flanker = 'Scout'
-        return {'Scout':1, 'Dreadnaught':8}
+        if self.turn == 0:
+            return {'Scout':1, 'Dreadnaught':4}
+        if cp_budget > 50:
+            return {'Dreadnaught':1}
