@@ -79,35 +79,36 @@ class Game:
     used_coords = []
     combat = True if len(self.combat_coords) != 0 else False
     for coord in self.combat_coords:
-      self.log.log_combat_location(coord)
-      sort_cls = sorted(self.all_ships(coord), key=lambda x: x.ship_class)
-      for ship in sort_cls:
-        if ship.hp == 0:
-          continue
-        if not self.check_for_opponent_ships(ship.player_num, ship.coords):
-          continue
+      while self.check_for_opponent_ships(self.all_ships(coord)[0].player_num, coord):
+        self.log.log_combat_location(coord)
+        sort_cls = sorted(self.all_ships(coord), key=lambda x: x.ship_class)
+        for ship in sort_cls:
+          if ship.hp == 0:
+            continue
+          if not self.check_for_opponent_ships(ship.player_num, ship.coords):
+            continue
 
-        player = self.players[ship.player_num - 1]
-        enemies = self.get_enemies(ship, sort_cls)
-        combat_order = [obj.__dict__ for obj in sort_cls]
-        target_dict = player.strategy.choose_target(ship.__dict__, combat_order)
-        target = self.dict_to_obj(target_dict, enemies)
+          player = self.players[ship.player_num - 1]
+          enemies = self.get_enemies(ship, sort_cls)
+          combat_order = [obj.__dict__ for obj in sort_cls]
+          target_dict = player.strategy.choose_target(ship.__dict__, combat_order)
+          target = self.dict_to_obj(target_dict, enemies)
 
-        self.log.combat_ships(ship, target)
-        if self.hit(ship, target):
-          self.log.write('\n\t\tHit!\n')
-          dmg = 1
-          target.hp -= dmg
-          self.log.ship_hit(ship, target, dmg)
-          if target.hp == 0:
-            self.log.ship_destroyed(target)
-            self.dead_ship(target)
-        else:
-          self.log.write('\n\t\tMiss\n')
-        
-      for ship in sort_cls:
-        if ship.hp == 0:
-          sort_cls.remove(ship)
+          self.log.combat_ships(ship, target)
+          if self.hit(ship, target):
+            self.log.write('\t\tHit!\n\n')
+            dmg = 1
+            target.hp -= dmg
+            self.log.ship_hit(ship, target, dmg)
+            if target.hp == 0:
+              self.log.ship_destroyed(target)
+              self.dead_ship(target)
+          else:
+            self.log.write('\t\tMiss\n\n')
+          
+        for ship in sort_cls:
+          if ship.hp == 0:
+            sort_cls.remove(ship)
       used_coords.append(coord)
     for coord in used_coords:
       self.combat_coords.remove(coord)
@@ -128,28 +129,18 @@ class Game:
       sorted_ships = sorted(player.ships, reverse=True, key=lambda x: x.maint_cost)
       used_cp = 0
       for ship in sorted_ships:
-        if player.cp < ship.maint_cost:
-          self.log.write(f'\n\t\tNot Enough CP! Removing {ship.name} {ship.ship_num}')
-          self.dead_ship(ship)
-        else:
-          player.cp -= ship.maint_cost
-          used_cp += ship.maint_cost
-      self.log.write(f'\n\t\tUsed CP: {used_cp}\n\t\tRemaining CP: {player.cp}\n')
+        used_cp += ship.maint_cost
+      if (player.cp - used_cp) >= 0:
+        player.cp -= used_cp
+      else:
+        while player.cp - used_cp < 0:
+          delete_ship = sorted_ships.pop()
+          used_cp -= delete_ship.maint_cost                   
+          self.log.write('\nPlayer ' + str(player.player_num) + ' ' + str(delete_ship.name) + ' ' + str(delete_ship.ship_num) + ' has been deleted')
+          self.dead_ship(delete_ship)
 
-      bought_ships = player.strategy.buy_ships(player.cp)
-      cp_used = self.get_cp_of_dict(bought_ships)
-      if cp_used > player.cp:
-        self.log.write(f'Player {player.player_num} used too much CP, no ships bought!\n')
-        continue
-      
-      player.cp -= cp_used
-      if bought_ships != None:
-        for key in bought_ships:
-          for num_ships in range(bought_ships[key]):
-            ship = ship_objects[key](player.player_num, player.home_colony.coords, player.ship_counter[key]+1)
-            self.add_to_board(ship)
-            player.ships.append(ship)
-            player.ship_counter[ship.name] += 1
+      self.check_buy_ships(player)
+      self.log.write('\nPlayer ' + str(player.player_num) + ' has ' + str(player.cp) + ' cp left\n')
 
     self.log.end_phase(self.turn, 'ECONOMIC')
   
@@ -271,6 +262,32 @@ class Game:
       player.strategy.simple_board = strat_board
       player.strategy.turn = self.turn
 
+  def check_buy_ships(self, player):
+    wanted_ships = player.strategy.buy_ships(player.cp)
+
+    if wanted_ships == None:
+      return player.cp
+
+    total_cp = 0
+    ships = []
+
+    for ship_name in wanted_ships:
+      for n in range(wanted_ships[ship_name]):
+        ship = ship_objects[ship_name](player.player_num, player.home_colony.coords, player.ship_counter[ship_name]+1)
+        player.ship_counter[ship_name] += 1
+        ships.append(ship)
+        total_cp += ship.cp_cost
+
+    if total_cp <= player.cp:
+      for ship in ships:
+        player.ships.append(ship)
+        player.ship_counter[ship.name] += 1
+        self.add_to_board(ship)
+        self.log.write('\nPlayer ' + str(player.player_num) + ' has bought a ' + str(ship.name))
+
+      player.cp = player.cp - total_cp
+            
+    return player.cp
 
   def print_board(self):
     temp_dict = {}
